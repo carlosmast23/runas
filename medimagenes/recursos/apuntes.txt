@@ -1,0 +1,6 @@
+URL ACTIVA: http://Www.medimagenes.ec
+Google drive: 
+usuario m3dimagenes@gmail.com
+clave: m3dimagenes2019
+
+VERSION PHP:5

@@ -1,0 +1,491 @@
+@font-face { font-family: "coolvetica_rg";
+    src: url('font/coolvetica_rg.ttf'), url('font/coolvetica_rg.woff'), url('font/coolvetica_rg.eot') ;
+}
+@font-face { font-family: "HelveticaNeueThn";
+    src: url('font/HelveticaNeueThn.ttf'), url('font/HelveticaNeueThn.woff'), url('font/HelveticaNeueThn.eot') ;
+}
+
+body{
+  font-family: "HelveticaNeueThn", Arial;
+}
+p{
+  font-family: "HelveticaNeueThn", Arial;
+  text-align: justify;
+}
+
+.h1, .h2, .h3,  .h5, .h6, h1, h2, h3, h5, h6 {
+    color: inherit;
+    font-family:"coolvetica_rg", Arial ;
+    text-align: left;
+}
+.h4 , h4{
+   font-family: "coolvetica_rg";
+   text-align: left;
+}
+input{
+  font-family: "HelveticaNeueThn";
+}
+.containerbotonera{
+    width: 1170px;
+}
+.background-footer{
+	background-color:#2395F6
+}
+.color-font-blanco{
+	color: #fff;
+}
+.parallax-formulario{
+	background: url('../images/imagen_home_paralax.png') no-repeat ;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	padding: 70px 0px 70px 0px;
+}
+.slider-imagen{
+	size:100%;
+}
+.input-formulario{
+	background-color: transparent;
+	color: #fff;
+	border-color: #fff;
+	border-radius: 0px;
+}
+select.input-formulario option{
+  color: #015A68;
+}
+form label {
+  color: #fff;
+  font-family: "HelveticaNeueThn", Arial;
+}
+.title-form{
+   color: #fff;
+}
+.menu-contacto-datos li{
+	list-style: none;
+}
+.menu-contacto-datos li {
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 0px;
+}
+
+.icono-datos-contacto {
+	font-size: 24px;
+	color: #1A93FD;
+}
+
+.padding-60-0{
+	padding: 20px 0px;
+
+
+}
+.padding-60-50{
+	padding: 50px 60px;
+
+
+}
+
+.font-size-15{
+	font-size: 15px;
+}
+.font-size-20{
+	font-size: 20px;
+}
+.menu-principal{
+   display: block;
+}
+.menu-principal li a{
+	color: #fff;
+}
+.menu-principal li a:hover{
+	background-color: #2395F6;
+}
+.dropdown-menu li a{
+	color: #2395F6;
+}
+.dropdown-menu li a:hover{
+	color: #fff;
+}
+
+.menu-principal .padding-top{
+   padding-top: 20px;
+}
+
+.titulo-seccion{
+	font-size: 20px;
+	color: #2395F6;
+/*font-weight: bold;*/
+}
+.texto-seccion{
+	font-size: 16px;
+	color: #000;
+	text-align: justify;
+	height: 220px;
+	overflow: hidden;
+}
+
+.link-seccion{
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+.image-servicios{
+	width: 100%;
+	height: 200px;
+}
+.img-resonancia{
+	background: url('../images/mi_botonera_servicios.png') no-repeat -23px -15px;
+
+}
+
+.img-tomografia{
+	background: url('../images/mi_botonera_servicios.png') no-repeat -217px -15px;
+
+}
+.img-ecografia{
+	background: url('../images/mi_botonera_servicios.png') no-repeat -412px -15px;
+}
+
+.img-rayosx{
+	background: url('../images/mi_botonera_servicios.png') no-repeat -607px -15px;
+}
+.img-mamografia{
+	background: url('../images/mi_botonera_servicios.png') no-repeat -802px -15px;
+}
+
+.img-densitometria{
+	background: url('../images/mi_botonera_servicios.png') no-repeat -996px -15px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: #fff !important;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholde { /* Firefox 18- */
+color: #fff !important;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: #fff !important;
+}
+
+/******** MEDICOS *****/
+.panel-medicos{
+	padding: 0px;
+	margin: 0px;
+	background-image: none !important;
+}
+
+.panel-medicos .panel-heading {
+	background: url('../images/neutron_membrete.png') no-repeat  left bottom #055463 !important
+
+}
+.panel-medicos .panel-heading h1{
+	  font-size: 50px;
+		color: #fff;
+		padding: 10px 100px;
+
+}
+.panel-medico-home {
+		color:#fff;
+		font-size: 28px;
+}
+
+
+.panel-medicos .panel-body h2{
+		color:#fff;
+		font-size: 40px;
+}
+
+.panel-medicos .panel-body p{
+	color:#fff;
+	font-size: 25px;
+	text-align: justify;;
+}
+
+.container-fondo{
+		background: url('../images/paralax_nuestros_doctores.png') no-repeat;
+		background-size: 100% 100%;
+}
+
+.fondo-menu{
+    background: url('../images/franja_menu_completa.png') no-repeat right bottom;
+    font-size: 20px;
+}
+
+/******* Titulo de la iMagen  **********/
+.titulo-imagen{
+	 color:#a88245;
+   top:35%;
+   left: 30% !important;
+}
+
+.titulo-imagen h1{
+		font-size: 80px;
+}
+.titulo-imagen p{
+	font-size: 25px;
+}
+
+
+.panel-servicios{
+    //color: #fff
+}
+.panel-servicios .panel-heading{
+    background: #fff;
+}
+
+.panel-servicios .panel-heading h3{
+    padding: 30px 0px;
+    color: #2095F3;
+    font-size: 60px;
+}
+.panel-servicios .panel-heading img{
+  margin: 0 10px;
+  position: relative;
+  top: -25px;
+}
+
+.panel-servicios .panel-body{
+  clear: left;
+}
+.panel-servicios .panel-body h2{
+    background: #2095F3;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+
+.panel-servicios .panel-body ul li{
+   color: #fff;
+   list-style-type: disc;
+   margin: 10px 0px;
+}
+.panel-servicios .panel-body ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.panel-servicios .panel-body .tab_servicios{
+  background-color: #1A626F;
+}
+
+.panel-servicios .panel-body .tab_servicios li{
+  margin-top: 0px;
+}
+.panel-servicios .panel-body .tab_servicios li.tab_header a {
+    background: #fff;
+}
+.panel-servicios .panel-body .tab_servicios li.active{
+    background: #2095F3;
+}
+.panel-servicios .panel-body .tab_servicios li.tab_header a{
+  color:#2095F3;
+  font-weight: bold;
+}
+.panel-servicios .panel-body .tab_servicios li.active a{
+    color:#fff;
+    background: #2095F3;
+    border-color: #2095F3;
+}
+.panel-servicios .panel-body .tab_servicios .tab_contenido{
+  font-size: 22px;
+  color: #fff;
+  text-align: justify;
+  padding: 5px 10px;
+}
+.nav-tabs {
+  border-bottom: 1px solid #1A626F;
+}
+
+footer{
+  background: #363839;
+  color:#bcbec0;
+  padding: 20px 0px;
+}
+
+.foot-address div {
+    color: #bcbec0;
+    line-height: 1.5em;
+    padding-bottom: 12px;
+    font-size: 15px;
+}
+
+.foot-widget-title {
+    color: #e6e7e8;
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2.3em;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.recent-post-foot ul{
+   clear: left;
+}
+.recent-post-foot li a {
+    color: #bcbec0;
+    line-height: 1.5em;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    font-size: 15px;
+}
+.event-date {
+    color: #107fc9;
+    font-size: 11px;
+    font-size: 13px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.titulo-imagen h1{
+  font-size: 160px;
+}
+
+.menu-resp-principal{
+   background: #055463;
+   border-color: #055463;
+   display: none;
+}
+
+.menu-resp-principal ul.navbar-nav a{
+   color: #fff;
+}
+
+.menu-resp-principal ul.navbar-nav a:hover{
+   color: #00afce;
+}
+
+.boton-mail{
+  color:#fff;
+  font-size:40px;
+  padding:5px 20px;
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-radius: 0px 20px 20px 0px;
+  display:block;
+  background-color: #055463;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.boton-mail:hover{
+  color:#00d0f4;
+}
+.precarga{
+   position: absolute;
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+   background: #000;
+   color: #fff;
+   opacity: 0.8;
+   filter:  alpha(opacity=80);
+}
+.box-icono{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+.container-slider{
+  overflow: hidden;
+  height: 100%;
+  min-height: 700px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 10px) {
+
+  .menu-resp-principal{
+    display: block;
+  }
+  .container-slider{
+    overflow: hidden;
+    height: 100%;
+    min-height: 250px;
+  }
+
+  .menu-principal{
+     display: none;
+  }
+  .menu-principal ul.dropdown-menu li{
+    background: #fff;
+  }
+  .menu-principal .padding-top{
+     padding-top: 0px;
+  }
+
+  .panel-medico-home{
+    font-size: 14px;
+  }
+
+  ul.menu-contacto-datos{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .texto-seccion{
+    height: auto;
+  }
+  .panel-medicos .panel-heading h1{
+      font-size: 30px;
+      padding: 10px 20px;
+  }
+
+  .panel-medicos .panel-body p{
+    font-size: 15px;
+    padding-right: 10px;
+  }
+
+  .panel-medicos .panel-body h2{
+    font-size: 24px;
+  }
+
+  .titulo-imagen{
+  	 color:#fff;
+  	 padding-left: 0px;
+     top:10%;
+     left: 5% !important;
+  }
+
+  .titulo-imagen h1{
+  		font-size: 60px;
+  }
+  .titulo-imagen p{
+  	font-size: 15px;
+  }
+
+  .
+}

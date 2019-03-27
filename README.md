@@ -1,2 +1,1 @@
-# runas
-trabajos
+Repositorio general para trabajos de runas

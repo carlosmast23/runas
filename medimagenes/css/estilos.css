@@ -1,0 +1,32 @@
+#titulo_banner {
+    font-style: normal;
+    font-size: 160px;
+    font-family: "coolvetica_rg";
+    color: #a88245;
+}
+
+#subtitulo_banner {
+    font-style: normal;
+    font-size: 25px;
+    /*font-family: "coolvetica_rg", Arial;*/
+    font-family: "HelveticaNeueThn";
+    color: #a88245;
+}
+
+/**
+Permite corregir el tamaño del carrusel para establecer el tamaño del alto de la pantalla
+*/
+.carousel-item{
+    height: 100vh;
+} 
+
+
+@font-face {
+    font-family: "coolvetica_rg";
+    src: url('font/coolvetica_rg.ttf');
+}
+
+@font-face {
+    font-family: "HelveticaNeueThn";
+    src: url('font/HelveticaNeue-Thin.ttf');
+}
