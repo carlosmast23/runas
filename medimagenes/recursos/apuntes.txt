@@ -4,3 +4,4 @@ usuario m3dimagenes@gmail.com
 clave: m3dimagenes2019
 
 VERSION PHP:5
+Medimagenes

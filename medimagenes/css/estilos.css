@@ -13,13 +13,38 @@
     color: #a88245;
 }
 
+#seccion_elegir_empresa {
+    height: 50vh;
+    background-image: url("../img/wallpaper_medico.png");
+    background-size: 150vw;
+    background-color: rgb(29, 55, 93);
+    background-blend-mode: screen;
+    color: white;
+    /**
+    Permite que el contenido se pueda centrar verticalmente
+    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+      /* Set a specific height */
+    /*background-size: cover;*/
+}
+
+#subtitulo {
+    color: white;
+}
+
 /**
 Permite corregir el tamaño del carrusel para establecer el tamaño del alto de la pantalla
 */
-.carousel-item{
-    height: 100vh;
-} 
 
+.carousel-item {
+    height: 100vh;
+}
 
 @font-face {
     font-family: "coolvetica_rg";
