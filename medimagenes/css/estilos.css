@@ -23,15 +23,32 @@
     /**
     Permite que el contenido se pueda centrar verticalmente
     */
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /*background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
       /* Set a specific height */
     /*background-size: cover;*/
+}
+
+#seccion_contactenos {
+    height: 50vh;
+    background-image: url("../img/wallpaper_medico.png");
+    background-size: 150vw;
+    background-color: rgb(29, 55, 93);
+    background-blend-mode: screen;
+    color: white;
+
+}
+
+#seccion_servicios
+{
+    /*display: none;*/
+    /*height: 200px;*/
+    /*height: 50vh;*/
 }
 
 #subtitulo {
