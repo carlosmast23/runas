@@ -30,7 +30,7 @@
     /*background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;*/
-      /* Set a specific height */
+    /* Set a specific height */
     /*background-size: cover;*/
 }
 
@@ -41,11 +41,9 @@
     background-color: rgb(29, 55, 93);
     background-blend-mode: screen;
     color: white;
-
 }
 
-#seccion_servicios
-{
+#seccion_servicios {
     /*display: none;*/
     /*height: 200px;*/
     /*height: 50vh;*/
@@ -53,6 +51,17 @@
 
 #subtitulo {
     color: white;
+}
+
+#pie_pagina{
+    background-color: rgb(35,149,246);
+    font-size: 13px;
+    height: 50px;
+    width: 100%;
+    color: white;
+    vertical-align: middle;
+    display: table;
+    padding-left: 20px;
 }
 
 /**
