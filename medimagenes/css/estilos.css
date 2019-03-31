@@ -5,6 +5,10 @@
     color: #a88245;
 }
 
+#borde-menu:hover {
+    background-color: rgb(35, 149, 246);
+}
+
 #subtitulo_banner {
     font-style: normal;
     font-size: 25px;
@@ -53,8 +57,8 @@
     color: white;
 }
 
-#pie_pagina{
-    background-color: rgb(35,149,246);
+#pie_pagina {
+    background-color: rgb(35, 149, 246);
     font-size: 13px;
     height: 50px;
     width: 100%;
@@ -80,4 +84,31 @@ Permite corregir el tamaño del carrusel para establecer el tamaño del alto de 
 @font-face {
     font-family: "HelveticaNeueThn";
     src: url('font/HelveticaNeue-Thin.ttf');
+}
+
+.navbar {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    padding-top: 50px;
+    padding-right: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    background: rgba(255, 255, 255, 0);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 0) 49%, rgba(24, 83, 160, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(1%, rgba(255, 255, 255, 0)), color-stop(49%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(24, 83, 160, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 0) 49%, rgba(24, 83, 160, 1) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 0) 49%, rgba(24, 83, 160, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 0) 49%, rgba(24, 83, 160, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 0) 49%, rgba(24, 83, 160, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#1853a0', GradientType=1);
 }
