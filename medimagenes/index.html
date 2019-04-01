@@ -9,12 +9,13 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	<link href="css/style-theme.css" rel="stylesheet">
+	<!--<link href="css/style-theme.css" rel="stylesheet">-->
 	<link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
 
 </head>
 
 <body>
+
 	<!-- MENU PRINCIPAL-->
 	<nav class="navbar  navbar-expand-lg navbar-light ">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -24,7 +25,7 @@
 
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto" style="font-size: 18px;font-weight: bold">
+			<ul class="navbar-nav ml-auto" style="font-size: 18px;">
 				<li class="nav-item active">
 					<a id="borde-menu" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 				</li>
@@ -112,8 +113,9 @@
 	</div>
 
 	<!-- SECCION DE ELEGIR NUESTRA EMPRESA-->
-	<div id="seccion_elegir_empresa">
-		<div style="padding: 10vw">
+	<div id="seccion_elegir_empresa" style=" vertical-align: middle;
+    display: table;">
+		<div style="padding: 10vw;display: table-cell;vertical-align: middle;">
 			<h2 id="subtitulo">¿Por qué elegir nuestra empresa?</h2>
 			<p style="font-size: 25px">Nuestro compromiso es cuidar la salud y la seguridad de nuestros pacientes con
 				calidez, profesionalismo y ética, siempre respetando la integridad y la dignidad de las personas
@@ -123,9 +125,9 @@
 	</div>
 
 	<!-- LISTA DE LOS SERVICIOS SERVICIOS-->
-	<div id="seccion_servicios" style="color: rgb(32,149,243);padding-top: 50px">
+	<div id="seccion_servicios" style="color: rgb(32,149,243);padding: 50px;">
 		<div class="row">
-			<div class="col-lg-2 col-sm-4">
+			<div class="col-lg-2 col-sm-4 col-xs-8">
 				<img src="img/boton_resonancia.png" style="width: 100%" />
 				<h4>Resonancia magnética</h4>
 				<p style="color: black">Es un método de diagnóstico especializado, que tiene como fin obtener
@@ -133,7 +135,7 @@
 					humano sin la utilización de la radiación ionizante (Rayos X).</p>
 
 			</div><!-- /.col-lg-4 -->
-			<div class="col-lg-2 col-sm-4">
+			<div class="col-lg-2 col-sm-4 col-xs-8">
 				<img src="img/boton_tomografia.png" style="width: 100%" />
 				<h4>Tomografía axial</h4>
 				<p style="color: black">La tomografía computarizada entrega información valiosa sobre el estado del
@@ -141,7 +143,7 @@
 					en el estudio y que procesa imágenes de gran nitidez.</p>
 
 			</div><!-- /.col-lg-4 -->
-			<div class="col-lg-2 col-sm-4">
+			<div class="col-lg-2 col-sm-4 col-xs-8">
 				<img src="img/boton_ecografia.png" style="width: 100%" />
 				<h4>Ecografía 3D - 4D</h4>
 				<p style="color: black">La ecografía es un estudio diagnóstico que utiliza ondas de ultrasonido para
@@ -149,21 +151,21 @@
 					las estructuras del cuerpo.</p>
 
 			</div><!-- /.col-lg-4 -->
-			<div class="col-lg-2 col-sm-4">
+			<div class="col-lg-2 col-sm-4 col-xs-8">
 				<img src="img/boton_rayosx.png" style="width: 100%" />
 				<h4>Rayos X Digital</h4>
 				<p style="color: black">La radiología es la especialidad médica que permite visualizar partes del
 					interior de nuestro cuerpo, utilizando la radiación electromagnética.</p>
 
 			</div><!-- /.col-lg-4 -->
-			<div class="col-lg-2 col-sm-4">
+			<div class="col-lg-2 col-sm-4 col-xs-8">
 				<img src="img/boton_mamografia.png" style="width: 100%" />
 				<h4>Mamografía digital</h4>
 				<p style="color: black">La mamografía es hasta el momento el mejor estudio para la detección
 					temprana de cáncer de mama. Es un examen médico no invasivo, que es una pequeña dosis de </p>
 
 			</div><!-- /.col-lg-4 -->
-			<div class="col-lg-2 col-sm-4">
+			<div class="col-lg-2 col-sm-4 col-xs-8">
 				<img src="img/boton_densitometría.png" style="width: 100%" />
 				<h4>Densitometría</h4>
 				<p style="color: black">La densitometría ósea, también llamada densitometría por absorción de
@@ -176,23 +178,34 @@
 	<!-- SECCION CONTACTANOS-->
 	<div id="seccion_contactenos">
 		<h2>Contáctenos</h2>
-		<div class="form-group">
-			<label for="exampleInputEmail1">Nombre</label>
-			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-				placeholder="Enter email">
+
+		<div class="row" style="color: black">
+			<div class="col-lg-6 col-sm-12">
+				<div class="form-group transparent-input">
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+						placeholder="Nombre">
+				</div>
+
+				<div class="form-group">
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+						placeholder="Telefono">
+				</div>
+
+				<div class="form-group">
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+						placeholder="E-mail">
+				</div>
+			</div>
+
+			<div class="col-lg-6 col-sm-12">
+				<div class="form-group">
+					<textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Mensaje"></textarea>
+				</div>
+				<button type="button" style="width: 50%" class="btn btn-info">Enviar</button>
+			</div>
 		</div>
 
-		<div class="form-group">
-			<label for="exampleInputEmail1">Telefono</label>
-			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-				placeholder="Enter email">
-		</div>
 
-		<div class="form-group">
-			<label for="exampleInputEmail1">E-mail</label>
-			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-				placeholder="Enter email">
-		</div>
 
 	</div>
 

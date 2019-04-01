@@ -39,12 +39,12 @@
 }
 
 #seccion_contactenos {
-    height: 50vh;
     background-image: url("../img/wallpaper_medico.png");
     background-size: 150vw;
     background-color: rgb(29, 55, 93);
     background-blend-mode: screen;
     color: white;
+    padding: 50px;
 }
 
 #seccion_servicios {
@@ -111,4 +111,50 @@ Permite corregir el tamaño del carrusel para establecer el tamaño del alto de 
     background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 0) 49%, rgba(24, 83, 160, 1) 100%);
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 0) 49%, rgba(24, 83, 160, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#1853a0', GradientType=1);
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+/**
+* CAMBIA EL COLOR DEL INPUT TEXT DEL PLACEHOLDER
+*/
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: white !important;
+}
+
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white !important;
+}
+
+input:-ms-input-placeholder {
+    color: white !important;
+}
+
+/**
+* CAMBIA EL COLOR DEL PLACE HOLDER PARA LOS AREA TEXT
+*/
+textarea::-webkit-input-placeholder {
+    color: white !important;
+}
+
+textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: white !important;
+}
+
+textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white !important;
+}
+
+textarea:-ms-input-placeholder {
+    color: white !important;
 }
