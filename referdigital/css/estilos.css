@@ -1,0 +1,36 @@
+.titulo_general
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.pie_pagina
+{
+    background-color: rgb(49,205,230);
+    color: white;
+    padding: 30px;
+    text-align: center;
+
+}
+
+#imagen_principal
+{
+    background-color: azure;
+    margin-bottom: 80px;
+}
+
+.cabecera
+{
+    background-color: white;
+    padding: 30px
+}
+
+.pie_pagina_redes_sociales
+{
+    padding-bottom: 20px;
+}
+
+.pie_pagina_redes_sociales a img
+{
+    margin-left: 20px;
+}
