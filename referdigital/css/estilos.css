@@ -1,21 +1,37 @@
+body
+{
+    font-family: Oswald-Light;
+}
+
+h2,h1,h3{
+    color: rgb(50,85,150);   
+    font-family: Oswald-Bold; 
+}
+
 .titulo_general
 {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .pie_pagina
 {
-    background-color: rgb(49,205,230);
+    background-color: rgb(73,208,230);
     color: white;
-    padding: 30px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right:5px;
     text-align: center;
+    font-size: 17px;
+    font-family: "Oswald-Medium";
 
 }
 
 #imagen_principal
 {
-    background-color: azure;
+    background-image: url(../img/grandes/celular.png);
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
     margin-bottom: 80px;
 }
 
@@ -33,4 +49,27 @@
 .pie_pagina_redes_sociales a img
 {
     margin-left: 20px;
+}
+
+/* already defined in bootstrap4 */
+.text-xs-center {
+    text-align: center;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+.modal-body
+{
+    padding: 0px;
+
+}
+
+#titulo_modal
+{
+    background-image: url(../img/logo/logo_peque.png);
+    background-repeat: no-repeat;
+    background-size: 38px auto;
+    background-position: 20px 2px;
 }
