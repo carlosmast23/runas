@@ -11,7 +11,7 @@
           <div class="col-md-8 text-center">
             <h1>Profesionales especializados <span class="typed-words"></span></h1>
             <p class="lead mb-5">Profesionales especializados, al servicio de nuestros pacientes.</p>
-            <div><a href="{{route('contactanos')}}" class="btn btn-primary btn-md">Contactanos</a></div>
+            <div><a href="<?= base_url() ?>index.php/welcome/contactanos" class="btn btn-primary btn-md">Contactanos</a></div>
           </div>
         </div>
 
@@ -94,7 +94,7 @@
                   magnética</span></h3>
               <p>Es un método de diagnóstico especializado, que tiene como fin obtener imágenes del cuerpo humano sin
                 la utilización de la radiación ionizante (Rayos X).</p>
-              <p><a href="#">Leer más</a></p>
+              <p><a href="<?= base_url() ?>index.php/welcome/servicio_resonancia">Leer más</a></p>
             </div>
 
             <div>
@@ -102,7 +102,7 @@
                   axial</span></h3>
               <p>La tomografía computarizada entrega información valiosa sobre el estado del área del cuerpo en el
                 estudio y que procesa imágenes de gran nitidez.</p>
-              <p><a href="#">Leer más</a></p>
+              <p><a href="<?= base_url() ?>index.php/welcome/servicio_tomografia">Leer más</a></p>
             </div>
 
           </div>
@@ -112,7 +112,7 @@
                   3D - 4D</span></h3>
               <p>La ecografía es un estudio de diagnóstico que utiliza ondas de ultrasonido para evaluar todas las
                 estructuras del cuerpo.</p>
-              <p><a href="#">Leer más</a></p>
+              <p><a href="<?= base_url() ?>index.php/welcome/servicio_ecografia">Leer más</a></p>
             </div>
 
             <div>
@@ -120,7 +120,7 @@
                   Digital</span></h3>
               <p>La radiología es la especialidad médica que permite visualizar partes del interior de nuestro cuerpo,
                 utilizando la radiación electromagnética.</p>
-              <p><a href="#">Leer más</a></p>
+              <p><a href="<?= base_url() ?>index.php/welcome/servicio_rayosx">Leer más</a></p>
             </div>
           </div>
         </div>
