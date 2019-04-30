@@ -24,7 +24,7 @@
         <div class="row">
             <div class="col-sm-4 col-lg-3 ">
                 <p style="text-align: center">
-                    <img src="<?= base_url() ?>public/img/logo/logo_superior.png" width="200px">
+                    <a href="<?= base_url() ?>index.php/welcome/index"><img src="<?= base_url() ?>public/img/logo/logo_superior.png" width="200px"><a>
                 </p>
             </div>
             <div class="col-sm-4 col-lg-6">

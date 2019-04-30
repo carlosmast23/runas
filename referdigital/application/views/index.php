@@ -83,11 +83,17 @@
         <div class="col-md-7">
             <h1 class="featurette-heading" style="margin-bottom: 80px;font-family: Oswald-Medium;">Preguntas Frecuentes
             </h1>
-            <p class="lead">Pregunta asdkjaskldjalskdjaklsdjklasdj 1?</p>
-            <p class="lead">Pregunta asdkjaskldjalskdjaklsdjklasdj adasdasdasdasdasdasdsdfdf 2?</p>
-            <p class="lead">Pregunta asdkjaskldjalskdjaklsdjklasdj asdasda 3?</p>
-            <p class="lead">Pregunta asdkjaskldjalskdjaklsdjklasdj qweqwe q4?</p>
-            <p class="lead">Pregunta asdkjaskldjalskdjaklsdjklasdj sdfsdfsdfsdfsdfsdf5?</p>
+            <?php
+                foreach($consulta->result() as $fila)
+                {               
+            ?>
+
+            <a href="<?= base_url() ?>index.php/welcome/preguntas"><p class="lead"><?php echo $fila->titulo ?></p></a>
+
+            <?php
+                }               
+            ?>
+            
         </div>
         <div class="col-md-5">
             <div>

@@ -20,8 +20,10 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		$result=$this->db->get('pregunta');
+		$data=array('consulta'=>$result);
 		$this->load->view('cabecera');
-		$this->load->view('index');
+		$this->load->view('index',$data);
 		$this->load->view('pie_pagina');
 	}
 
