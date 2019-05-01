@@ -84,8 +84,13 @@
             <h1 class="featurette-heading" style="margin-bottom: 80px;font-family: Oswald-Medium;">Preguntas Frecuentes
             </h1>
             <?php
+                $contador=0;
                 foreach($consulta->result() as $fila)
-                {               
+                {
+                    if($contador++==6)
+                    {
+                        break;
+                    }               
             ?>
 
             <a href="<?= base_url() ?>index.php/welcome/preguntas"><p class="lead"><?php echo $fila->titulo ?></p></a>

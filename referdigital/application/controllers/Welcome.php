@@ -20,8 +20,10 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$result=$this->db->get('pregunta');
+		$this->load->model('PreguntaModel');
+		$result=$this->PreguntaModel->todasPreguntas();
 		$data=array('consulta'=>$result);
+
 		$this->load->view('cabecera');
 		$this->load->view('index',$data);
 		$this->load->view('pie_pagina');
@@ -29,7 +31,9 @@ class Welcome extends CI_Controller {
 
 	public function preguntas()
 	{
-		$result=$this->db->get('pregunta');
+		$this->load->model('PreguntaModel');
+		$result=$this->PreguntaModel->todasPreguntas();
+		//$result=$this->db->get('pregunta');
 		$data=array('consulta'=>$result);
 		$this->load->view('cabecera');
 		$this->load->view('preguntas',$data);
