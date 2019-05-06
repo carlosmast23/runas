@@ -29,11 +29,11 @@
             </div>
             <div class="col-sm-4 col-lg-6">
                 <div class="pie_pagina_redes_sociales" style="text-align: center">
-                    <a href="."><img src="<?= base_url() ?>public/img/iconos/facebook.png" width="50px"></img></a>
-                    <a href="."><img src="<?= base_url() ?>public/img/iconos/twiter.png" width="50px"></img></a>
-                    <a href="."><img src="<?= base_url() ?>public/img/iconos/foto.png" width="50px"></img></a>
-                    <a href="."><img src="<?= base_url() ?>public/img/iconos/instragram.png" width="50px"></img></a>
-                    <a href="."><img src="<?= base_url() ?>public/img/iconos/youtube.png" width="50px"></img></a>
+                    <a href="https://www.facebook.com/ReferAppMx/"><img src="<?= base_url() ?>public/img/iconos/facebook.png" width="50px"></img></a>
+                    <a href="https://twitter.com/Refer_App_"><img src="<?= base_url() ?>public/img/iconos/twiter.png" width="50px"></img></a>
+                    <a href="https://www.linkedin.com/company/refer-app/"><img src="<?= base_url() ?>public/img/iconos/foto.png" width="50px"></img></a>
+                    <a href="https://www.instagram.com/refer.app/"><img src="<?= base_url() ?>public/img/iconos/instragram.png" width="50px"></img></a>
+                    <a href="https://www.youtube.com/channel/UCvywCRXEPPYs43yfM2_7n2Q?view_as=subscriber"><img src="<?= base_url() ?>public/img/iconos/youtube.png" width="50px"></img></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-3">

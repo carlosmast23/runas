@@ -4,13 +4,13 @@
     </div>
     <div class="pie_pagina">
         <div class="pie_pagina_redes_sociales" style="text-align: center">
-            <a href="."><img src="<?= base_url() ?>public/img/iconos/footer_facebook.png"></img></a>
-            <a href="."><img src="<?= base_url() ?>public/img/iconos/footer_twiter.png"></img></a>
-            <a href="."><img src="<?= base_url() ?>public/img/iconos/footer_insta1.png"></img></a>
-            <a href="."><img src="<?= base_url() ?>public/img/iconos/footer_linkenin.png"></img></a>
-            <a href="."><img src="<?= base_url() ?>public/img/iconos/footer_youtube.png"></img></a>
+            <a href="https://www.facebook.com/ReferAppMx/"><img src="<?= base_url() ?>public/img/iconos/footer_facebook.png"></img></a>
+            <a href="https://twitter.com/Refer_App_"><img src="<?= base_url() ?>public/img/iconos/footer_twiter.png"></img></a>
+            <a href="https://www.instagram.com/refer.app/"><img src="<?= base_url() ?>public/img/iconos/footer_insta1.png"></img></a>
+            <a href="https://www.linkedin.com/company/refer-app/"><img src="<?= base_url() ?>public/img/iconos/footer_linkenin.png"></img></a>
+            <a href="https://www.youtube.com/channel/UCvywCRXEPPYs43yfM2_7n2Q?view_as=subscriber"><img src="<?= base_url() ?>public/img/iconos/footer_youtube.png"></img></a>
         </div>
-        <div class="row">
+        <div class="row" style="padding-bottom: 20px">
             <div style="color: rgb(50,85,150)" class="col-sm-4 col-lg-2 offset-lg-1">
                 Aviso de privacidad
             </div>
@@ -19,7 +19,7 @@
             </div>
             <div class="col-sm-4 col-lg-2">
                 <img src="<?= base_url() ?>public/img/iconos/peque_correo.png" width="20px"
-                    style="margin-right: 5px;margin-bottom: 2px">hola@refer.digi2al
+                    style="margin-right: 5px;margin-bottom: 2px">hola@refer.digital
             </div>
             <div class="col-sm-4 offset-sm-2 col-lg-2 offset-lg-0">
                 <img src="<?= base_url() ?>public/img/iconos/peque_direccion.png" width="20px" style="margin-right: 5px;margin-bottom: 2px">Av.

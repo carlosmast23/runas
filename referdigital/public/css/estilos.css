@@ -29,10 +29,21 @@ h2,h1,h3{
 
 #imagen_principal
 {
-    background-image: url(../img/grandes/celular.png);
+    background-image: url(../img/grandes/celular_peque.png);
     background-size: 100vw auto;
     background-repeat: no-repeat;
     margin-bottom: 80px;
+}
+
+/* Css por defecto para los dispositivos grandes */
+@media (min-width: 1000px) {
+    #imagen_principal
+    {
+        background-image: url(../img/grandes/celular2.png);
+        background-size: 100vw auto;
+        background-repeat: no-repeat;
+        margin-bottom: 80px;
+    }
 }
 
 .cabecera

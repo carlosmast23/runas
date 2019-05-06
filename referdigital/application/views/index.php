@@ -8,8 +8,8 @@
 
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-6">
-            <div style="font-family: Oswald-Light;font-size: 26px;margin-top: 40%;margin-bottom: 5%">
-                <ul style="text-align: left;">
+            <div style="font-family: Oswald-Regular;font-size: 26px;margin-top: 15vw;margin-bottom: 5%">
+                <ul style="text-align: justify;padding-right: 30px">
                     <li>Inscribe negocios a REFER y gana.</li>
                     <li>Crea un código QR único que integras a tus fotos y vídeos cuando compras en un establecimiento.</li>
                     <li>Cada código tiene una promoción que puede ser redimida en el establecimiento que se está refiriendo al hacer una compra.</li>
@@ -18,7 +18,7 @@
             </div>
 
             <h1 style="text-align: center;padding: 20px;font-family: Oswald-Medium;">Descarga Refer</h1>
-            <div class="pie_pagina_redes_sociales" style="text-align: center;margin-bottom: 20%">
+            <div class="pie_pagina_redes_sociales" style="text-align: center;margin-bottom: 17vw">
                 <a href="."><img src="<?= base_url() ?>public/img/iconos/app_store.png"></img></a>
                 <a href="."><img src="<?= base_url() ?>public/img/iconos/google_play.png"></img></a>
             </div>
@@ -45,8 +45,7 @@
         <h2 style="text-align: center;font-family:Oswald-Medium">MicroInfluencer</h2>
         <ul style="text-align: left;">
             <li>Afíliate y crea tu código QR por cada lugar que recomiendes.</li>
-            <li>Compártelo con tus amigos y por cada código escaneado.</li>
-            <li>Acumulas dinero en tu wallet.</li>
+            <li>Compártelo con tus amigos y por cada código escaneado acumulas dinero en tu wallet.</li>
         </ul>
 
     </div><!-- /.col-lg-4 -->
@@ -149,7 +148,7 @@
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Telefono">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="mensaje" rows="2"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="2"></textarea>
                     </div>
 
                     <div class="form-group text-xs-center">
