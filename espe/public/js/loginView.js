@@ -1,15 +1,15 @@
 
 function login() {
-    //alert('ejemplo');
+    
     var usuario = $('#usuario').val();
     var clave = $('#clave').val();
-
-    //validarLogin(usuario, clave);
+    var url=$('#ingreso_usuario').val();
     
+
     if(validarLogin(usuario, clave))
     {
         alert('Bienvenido al Sistema');
-        window.location = "http://www.google.com";
+        window.location = url;
     }
     else{
         alert('Datos incorrectos');

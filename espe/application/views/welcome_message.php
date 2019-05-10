@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	<script src="<?php base_url() ?>public/js/loginView.js"  ></script>
+	<script src="<?php echo base_url() ?>public/js/loginView.js"  ></script>
 	
 
 	<style>
@@ -99,6 +99,7 @@
 		
 		<label for="inputPassword" class="sr-only">clave</label>
 		<input type="password" id="clave" class="form-control" placeholder="Clave" required/>
+		<input type="hidden" value="<?php echo base_url() ?>index.php/welcome/plantilla" id="ingreso_usuario"/>
 
 		<div class="checkbox mb-3">
 			<label>
