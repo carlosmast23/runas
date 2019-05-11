@@ -1,5 +1,7 @@
 //Almacenar consultas del json con los datos
 jsonConsulta=null;
+//Variable para mantener el id del dato que estoy editando
+idCampusEditando=null;
 
 window.onload = function () {
     cargarCampus();
@@ -44,11 +46,53 @@ function agregarFila(id,nombre, direccion, telefono) {
 
 }
 
+function editarCampus()
+{
+    url="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/updateCampus";
+    nombre=$('#nombreEdit').val();
+    direccion=$('#direccionEdit').val();
+    telefono=$('#telefonoEdit').val();
+
+    if(nombre==="" || direccion==="" || telefono==="" )
+    {
+        alert('Porfavor ingrese todos los campos para continuar');
+        return;
+    }
+
+    var parametros={
+        idCampus:idCampusEditando,
+        nombreCampus:nombre,
+        dirCampus:direccion,
+        telCampus:telefono
+    };
+    jsonParametros=JSON.stringify(parametros); 
+    console.log(jsonParametros);
+
+    $.ajax({
+        url: url,
+        dataType: 'json',
+        contentType: 'application/json; charset=utf-8',
+        type: 'POST',
+        data: jsonParametros,
+        async: false,
+        success: function (json) {
+            alert('Campus Editado');
+        }
+    }).fail(function(xhr,textStatus,err){
+        alert(err);
+    });
+   
+    $('#modal').modal('hide');
+    limpiarCampos();
+    cargarCampus();
+   
+}
+
 
 function grabarCampus()
 {
     url="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/createCampus";
-
+    
     nombre=$('#nombre').val();
     direccion=$('#direccion').val();
     telefono=$('#telefono').val();
@@ -128,16 +172,13 @@ function eliminar(idCampus)
     cargarCampus();
 }
 
-function sumar(a,b)
-{
-    return a+b;
-}
 
 function abrirModalEditar(idCampus) {
 
     //alert(sumar(2,3));
     campus=consularCampusPorId(idCampus);
     //alert(campus);
+    idCampusEditando=idCampus;
     $('#nombreEdit').val(campus['nombreCampus']);
     $('#direccionEdit').val(campus['dirCampus']);
     $('#telefonoEdit').val(campus['telCampus']);

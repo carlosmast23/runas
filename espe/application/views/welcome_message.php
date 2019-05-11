@@ -99,7 +99,7 @@
 		
 		<label for="inputPassword" class="sr-only">clave</label>
 		<input type="password" id="clave" class="form-control" placeholder="Clave" required/>
-		<input type="hidden" value="<?php echo base_url() ?>index.php/welcome/plantilla" id="ingreso_usuario"/>
+		<input type="hidden" value="<?php echo base_url() ?>" id="base_url"/>
 
 		<div class="checkbox mb-3">
 			<label>
