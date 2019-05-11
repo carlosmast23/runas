@@ -21,7 +21,7 @@ class Paciente extends CI_Controller {
 
     public function verDatos()
     {
-        $this->buildView('paciente/ver_Datos','Datos Paciente');
+        $this->buildView('paciente/ver_datos','Datos Paciente');
     }
 
     public function verCita()

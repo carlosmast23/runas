@@ -22,7 +22,7 @@ class Medico extends CI_Controller {
 	
 	public function verDatos()
     {
-        $this->buildView('paciente/ver_Datos','Datos Medico');
+        $this->buildView('paciente/ver_datos','Datos Medico');
     }
 
 
