@@ -16,6 +16,9 @@
             <div class="form-group">
                 <input type="text" class="form-control" id="ocupacion" aria-describedby="emailHelp" placeholder="Ocupacion">
             </div>
+            <div class="form-group">
+                <input type="date" class="form-control" id="fecha" aria-describedby="emailHelp" placeholder="Fecha">
+            </div>
             <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="regularidadAlimentaria" >Regularidad Alimentaria</input>
             </div>
@@ -61,7 +64,6 @@
             <th>Nombres</th>
             <th>Apellidos</th>
             <th>Ocupacion</th>
-            <th>Editar</th>
             <th>Eliminar</th>
         </tr>
     </thead>

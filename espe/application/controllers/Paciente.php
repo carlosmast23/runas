@@ -29,6 +29,11 @@ class Paciente extends CI_Controller {
         $this->buildView('paciente/ver_citas','Citas');
     }
 
+    public function verDiagnostico()
+    {
+        $this->buildView('paciente/ver_diagnostico','Diagnostico del Paciente');
+    }
+
     public function grabarVariablesSession()
     {
         $this->session->set_userdata('usuario',$this->input->get('usuario'));

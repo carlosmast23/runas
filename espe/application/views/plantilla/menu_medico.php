@@ -13,15 +13,28 @@
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link " href="<?php echo base_url() ?>/index.php/medico/verDatos">
+                            <a class="nav-link " href="<?php echo base_url() ?>index.php/medico/verDatos">
                                 <span data-feather="home"></span>
                                 Ver Datos <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="<?php echo base_url() ?>/index.php/medico/cita">
+                            <a class="nav-link " href="<?php echo base_url() ?>index.php/medico/paciente">
+                                <span data-feather="home"></span>
+                                Paciente <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="<?php echo base_url() ?>index.php/medico/cita">
                                 <span data-feather="home"></span>
                                 Citas <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="<?php echo base_url() ?>index.php/medico/diagnostico">
+                                <span data-feather="home"></span>
+                                Diagnostico <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         

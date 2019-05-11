@@ -28,12 +28,14 @@ class Medico extends CI_Controller {
 
 	public function paciente()
 	{
-		//$this->load->view('welcome_message');
-		$datos['titulo'] = "Paciente";
-		$this->load->view('plantilla/head',$datos);
-		$this->load->view('paciente');
-		$this->load->view('plantilla/footer');
+		$this->buildView('paciente','Paciente');
 	}
+
+	public function diagnostico()
+	{
+		$this->buildView('medico/diagnostico','Diagnostico');
+	}
+
 
 	
 	public function campus()

@@ -36,7 +36,6 @@ function agregarFila(cedula, nombre, apellido, ocupacion) {
         '<td>' + nombre + '</td>' +
         '<td>' + apellido + '</td>' +
         '<td>' + ocupacion + '</td>' +
-        '<td><button type="button" class="btn btn-primary"><i class="fa fa-pencil"></i></button></td>' +
         '<td><button type="button" class="btn btn-danger"><i class="fa fa-trash-o"></i></button></td>' +
         '</tr>';
 
@@ -51,6 +50,7 @@ function grabarPaciente() {
     var nombres = $('#nombres').val();
     var apellidos = $('#apellidos').val();
     var ocupacion = $('#ocupacion').val();
+    var fecha = $('#fecha').val();
 
     var regularidadAlimentaria=$('#regularidadAlimentaria').is(":checked");
     var regularidadconsumeAlcohollimentaria=$('#consumeAlcohol').is(":checked");
@@ -69,6 +69,7 @@ function grabarPaciente() {
     }
 
     var parametros={
+        codPa:"99",
         ciPaciente:cedula,
         nombresPa:nombres,
         apellidosPa:apellidos,
@@ -79,6 +80,8 @@ function grabarPaciente() {
         tieneAcidezEstomacal:acidezEstomacal,
         consumoPsc:consumePsc,
         tieneGastritis:tieneGastritis,
+        fechaGastritis:fecha,
+        repoPaciente:"No se para que sirve",
         tieneArdor:tieneArdor,
         parienteConGastritis:parienteConGastritis,
     };
