@@ -13,7 +13,18 @@ class Medico extends CI_Controller {
     {
         $this->grabarVariablesSession();
         $this->index();
+	}
+	
+	public function cita()
+    {        
+        $this->buildView('medico/cita','Cita');
+	}
+	
+	public function verDatos()
+    {
+        $this->buildView('paciente/ver_Datos','Datos Medico');
     }
+
 
 	public function paciente()
 	{

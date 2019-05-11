@@ -13,15 +13,15 @@
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link " href="<?php echo base_url() ?>/index.php/paciente/verDatos">
+                            <a class="nav-link " href="<?php echo base_url() ?>/index.php/medico/verDatos">
                                 <span data-feather="home"></span>
                                 Ver Datos <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="<?php echo base_url() ?>/index.php/paciente/campus">
+                            <a class="nav-link " href="<?php echo base_url() ?>/index.php/medico/cita">
                                 <span data-feather="home"></span>
-                                Otro <span class="sr-only">(current)</span>
+                                Citas <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         

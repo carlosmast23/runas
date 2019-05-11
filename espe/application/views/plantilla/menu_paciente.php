@@ -19,9 +19,9 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="<?php echo base_url() ?>/index.php/paciente/campus">
+                            <a class="nav-link " href="<?php echo base_url() ?>/index.php/paciente/verCita">
                                 <span data-feather="home"></span>
-                                Otro <span class="sr-only">(current)</span>
+                                Ver Cita <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         
