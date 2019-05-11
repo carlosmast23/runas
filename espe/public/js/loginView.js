@@ -44,6 +44,9 @@ function validarLogin(usuario, clave) {
         }
     });
 
+    //TODO: validacion temporal para hacer pruebas
+    resultado=true;
+
     return resultado;
 
 

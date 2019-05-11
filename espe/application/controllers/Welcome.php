@@ -28,4 +28,23 @@ class Welcome extends CI_Controller {
 		//$this->load->view('welcome_message');
 		$this->load->view('plantilla/index');
 	}
+
+	public function paciente()
+	{
+		//$this->load->view('welcome_message');
+		$datos['titulo'] = "Paciente";
+		$this->load->view('plantilla/head',$datos);
+		$this->load->view('paciente');
+		$this->load->view('plantilla/footer');
+	}
+
+	
+	public function campus()
+	{
+		//$this->load->view('welcome_message');
+		$datos['titulo'] = "Campus";
+		$this->load->view('plantilla/head',$datos);
+		$this->load->view('campus');
+		$this->load->view('plantilla/footer');
+	}
 }
