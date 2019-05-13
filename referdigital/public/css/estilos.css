@@ -29,7 +29,7 @@ h2,h1,h3{
 
 #imagen_principal
 {
-    background-image: url(../img/grandes/celular_peque.png);
+    background-image: url(../img/grandes/celular_peque2.png);
     background-size: 100vw auto;
     background-repeat: no-repeat;
     margin-bottom: 80px;
@@ -45,6 +45,8 @@ h2,h1,h3{
         margin-bottom: 80px;
     }
 }
+
+
 
 .cabecera
 {
@@ -81,6 +83,6 @@ h2,h1,h3{
 {
     background-image: url(../img/logo/logo_peque.png);
     background-repeat: no-repeat;
-    background-size: 38px auto;
+    background-size: 30px auto;
     background-position: 20px 2px;
 }

@@ -4,9 +4,9 @@
     </div>
     <div class="pie_pagina">
         <div class="pie_pagina_redes_sociales" style="text-align: center">
-            <a href="https://www.facebook.com/ReferAppMx/"><img src="<?= base_url() ?>public/img/iconos/footer_facebook.png"></img></a>
-            <a href="https://twitter.com/Refer_App_"><img src="<?= base_url() ?>public/img/iconos/footer_twiter.png"></img></a>
-            <a href="https://www.instagram.com/refer.app/"><img src="<?= base_url() ?>public/img/iconos/footer_insta1.png"></img></a>
+            <a href="https://www.facebook.com/App.Refer/"><img src="<?= base_url() ?>public/img/iconos/footer_facebook.png"></img></a>
+            <a href="https://twitter.com/app_refer/"><img src="<?= base_url() ?>public/img/iconos/footer_twiter.png"></img></a>
+            <a href="https://www.instagram.com/app.refer/"><img src="<?= base_url() ?>public/img/iconos/footer_insta1.png"></img></a>
             <a href="https://www.linkedin.com/company/refer-app/"><img src="<?= base_url() ?>public/img/iconos/footer_linkenin.png"></img></a>
             <a href="https://www.youtube.com/channel/UCvywCRXEPPYs43yfM2_7n2Q?view_as=subscriber"><img src="<?= base_url() ?>public/img/iconos/footer_youtube.png"></img></a>
         </div>
@@ -21,11 +21,11 @@
                 <img src="<?= base_url() ?>public/img/iconos/peque_correo.png" width="20px"
                     style="margin-right: 5px;margin-bottom: 2px">hola@refer.digital
             </div>
-            <div class="col-sm-4 offset-sm-2 col-lg-2 offset-lg-0">
+            <div class="col-sm-4 offset-sm-2 col-lg-2 offset-lg-0" style="font-family:Arial, Helvetica, sans-serif;font-size: 15px">
                 <img src="<?= base_url() ?>public/img/iconos/peque_direccion.png" width="20px" style="margin-right: 5px;margin-bottom: 2px">Av.
                 Lorem ipsum #234
             </div>
-            <div class="col-sm-4 col-lg-2">
+            <div class="col-sm-4 col-lg-2" style="font-family:Arial, Helvetica, sans-serif">
                 <img src="<?= base_url() ?>public/img/iconos/peque_telefono.png" width="20px" style="margin-right: 5px;margin-bottom: 2px">55 49
                 22 59 82
             </div>

@@ -8,9 +8,9 @@ class PreguntaModel extends CI_Model
         //return $this->db->get('post');
     }
 
-    public function grabar($titulo, $descripcion)
+    public function grabar($titulo, $descripcion,$video)
     {
-        $consulta = $this->db->query("INSERT INTO pregunta VALUES(NULL,'$titulo','$descripcion',0);");
+        $consulta = $this->db->query("INSERT INTO pregunta VALUES(NULL,'$titulo','$descripcion',0,'$video');");
         if ($consulta == true) {
             return true;
         } else {

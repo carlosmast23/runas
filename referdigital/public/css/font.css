@@ -1,29 +1,29 @@
 @font-face {
     font-family: "Oswald-Bold";
-    src: url('../font/Oswald-Bold.ttf');
+    src: url('../font/ageo/AgeoPersonalUse-Bold.otf');
 }
 
 @font-face {
     font-family: "Oswald-ExtraLight";
-    src: url('../font/Oswald-ExtraLight.ttf');
+    src: url('../font/ageo/AgeoPersonalUse-Light.otf');
 }
 
 @font-face {
     font-family: "Oswald-Light";
-    src: url('../font/Oswald-Light.ttf');
+    src: url('../font/ageo/AgeoPersonalUse-Light.otf');
 }
 
 @font-face {
     font-family: "Oswald-Medium";
-    src: url('../font/Oswald-Medium.ttf');
+    src: url('../font/ageo/AgeoPersonalUse-Medium.otf');
 }
 
 @font-face {
     font-family: "Oswald-Regular";
-    src: url('../font/Oswald-Regular.ttf');
+    src: url('../font/ageo/AgeoPersonalUse-Thin.otf');
 }
 
 @font-face {
     font-family: "Oswald-SemiBold";
-    src: url('../font/Oswald-SemiBold.ttf');
+    src: url('../font/ageo/AgeoPersonalUse-SemiBold.otf');
 }

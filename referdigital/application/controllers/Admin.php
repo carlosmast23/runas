@@ -51,7 +51,8 @@ class Admin extends CI_Controller
         //llamo al metodo add
         $add = $this->PreguntaModel->grabar(
             $this->input->post("titulo"),
-            $this->input->post("descripcion")
+            $this->input->post("descripcion"),
+            $this->input->post("url_video")            
         );
         //}
         redirect(admin);

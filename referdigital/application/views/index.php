@@ -1,5 +1,5 @@
 <div class="titulo_general">
-    <h1 style="text-align: center;font-size:7vw">#RefiereYGana</h1>
+    <h1 style="text-align: center;font-size:50px">#Refiere<spam style="font-size: 35px">Y</spam>Gana</h1>
 </div>
 
 <div id="imagen_principal">
@@ -17,7 +17,7 @@
                 </ul>
             </div>
 
-            <h1 style="text-align: center;padding: 20px;font-family: Oswald-Medium;">Descarga Refer</h1>
+            <h1 style="text-align: center;padding: 20px;font-family: Oswald-Medium;">Descarga Refer Gratis</h1>
             <div class="pie_pagina_redes_sociales" style="text-align: center;margin-bottom: 17vw">
                 <a href="."><img src="<?= base_url() ?>public/img/iconos/app_store.png"></img></a>
                 <a href="."><img src="<?= base_url() ?>public/img/iconos/google_play.png"></img></a>
@@ -27,7 +27,7 @@
 </div>
 
 <!-- SECCION DE DESCRIPCION-->
-<div class="row" style="margin: 30px;text-align: center">
+<div class="row" style="margin: 30px;text-align: center;">
     <div class="col-lg-3">
         <img src="<?= base_url() ?>public/img/iconos_medianos/circulo1.png"></img>
         <h2 style="text-align: center;font-family:Oswald-Medium">Negocio</h2>
@@ -138,7 +138,7 @@
                 <h4 class="modal-title" id="myModalLabel"></h4>
             </div>
             <div class="modal-body">
-                <h2 id="titulo_modal" style="font-family: Oswald-Light;text-align: center;margin-bottom:30px"></img>Descarga - Refiere - Gana</h2>
+                <h2 id="titulo_modal" style="font-family: Oswald-Light;text-align: center;margin-bottom:20px;margin-top:20px;font-size: 25px">Descarga-Refiere-Gana</h2>
 
                 <form style="padding-left: 80px;padding-right: 80px">
                     <div class="form-group">
