@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="col-sm-4 col-lg-3" style="text-align: center">
-                    <h2 style="vertical-align: baseline;font-family:Arial, Helvetica, sans-serif">
+                    <h2 style="vertical-align: baseline">
                         <img src="<?= base_url() ?>public/img/iconos/otros/telefono.png" width="40px;" style="vertical-align: baseline;padding-right: 15px;"></img>55 4000 0962
                     </h2>
             </div>

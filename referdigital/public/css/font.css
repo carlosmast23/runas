@@ -1,29 +1,29 @@
 @font-face {
     font-family: "Oswald-Bold";
-    src: url('../font/ageo/AgeoPersonalUse-Bold.otf');
+    src: url('../font/gravity/Gravity-Bold.otf');
 }
 
 @font-face {
     font-family: "Oswald-ExtraLight";
-    src: url('../font/ageo/AgeoPersonalUse-Light.otf');
+    src: url('../font/gravity/Gravity-UltraLight.otf');
 }
 
 @font-face {
     font-family: "Oswald-Light";
-    src: url('../font/ageo/AgeoPersonalUse-Light.otf');
+    src: url('../font/gravity/Gravity-Light.otf');
 }
 
 @font-face {
     font-family: "Oswald-Medium";
-    src: url('../font/ageo/AgeoPersonalUse-Medium.otf');
+    src: url('../font/gravity/Gravity-Regular.otf');
 }
 
 @font-face {
     font-family: "Oswald-Regular";
-    src: url('../font/ageo/AgeoPersonalUse-Thin.otf');
+    src: url('../font/gravity/Gravity-Regular.otf');
 }
 
 @font-face {
     font-family: "Oswald-SemiBold";
-    src: url('../font/ageo/AgeoPersonalUse-SemiBold.otf');
+    src: url('../font/gravity/Gravity-Book.otf');
 }

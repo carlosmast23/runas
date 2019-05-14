@@ -8,11 +8,11 @@
             ?>
             <div class="card text-center">
                 <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
+                    <h5 class="mb-0" style="text-align: left">
                         <i class="fa fa-arrow-right" style="color: rgb(50,85,150)"></i>
                         <button class="btn btn-link" data-toggle="collapse" data-target="#collapse<?php echo $contador ?>" aria-expanded="true" aria-controls="collapse<?php echo $contador ?>">
 
-                            <p style="color: rgb(50,85,150);font-family: Oswald-SemiBold; "><span style="color: rgb(73,208,230)"><?php echo $contador ?>.-</span><?php echo $fila->titulo ?><p>
+                            <p style="color: rgb(50,85,150);font-family: Oswald-SemiBold"><span style="color: rgb(73,208,230)"><?php echo $contador ?>.-</span><?php echo $fila->titulo ?><p>
                         </button>
                     </h5>
                 </div>
