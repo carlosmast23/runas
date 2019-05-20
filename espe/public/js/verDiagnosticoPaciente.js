@@ -4,7 +4,8 @@ window.onload = function () {
 };
 
 function cargarDiagnostico() {
-    var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudDiagnostico/findDiagnosticoByCI';
+    //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudDiagnostico/findDiagnosticoByCI';
+    var url =construirUrl('ServidorProyectoIris/webresources/CrudDiagnostico/findDiagnosticoByCI');
     $('#tabla tbody tr').remove();
     //cedulaSession
     jsonParametros=JSON.stringify({

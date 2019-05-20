@@ -19,7 +19,8 @@ function login() {
 
 function validarLogin(usuario, clave,baseUrl) {
     //window.location = window.location =construirUrlConParametros(baseUrl+"index.php/paciente/login",parametros);
-    var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCuenta/getCuentaList';
+    //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCuenta/getCuentaList';
+    var url = construirUrl('ServidorProyectoIris/webresources/CrudCuenta/getCuentaList');
     var resultado=false;
     
     $.ajax({
@@ -87,7 +88,8 @@ function construirUrlConParametros(url,parametros)
 
 function consultarDatosUsuario(idUsuario,usuario)
 {
-    var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudUsuario/getUsuarioList';
+    //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudUsuario/getUsuarioList';
+    var url = construirUrl('ServidorProyectoIris/webresources/CrudUsuario/getUsuarioList');
     resultado=null;
     $.ajax({
         url: url,

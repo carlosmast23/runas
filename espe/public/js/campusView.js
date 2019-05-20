@@ -8,7 +8,8 @@ window.onload = function () {
 };
 
 function cargarCampus() {
-    var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/getCampusList';
+    //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/getCampusList';
+    var url = construirUrl('ServidorProyectoIris/webresources/CrudCampus/getCampusList');
     $('#tabla tbody tr').remove();
 
     $.ajax({
@@ -48,7 +49,8 @@ function agregarFila(id,nombre, direccion, telefono) {
 
 function editarCampus()
 {
-    url="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/updateCampus";
+    //var url="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/updateCampus";
+    var url=construirUrl("ServidorProyectoIris/webresources/CrudCampus/updateCampus");
     nombre=$('#nombreEdit').val();
     direccion=$('#direccionEdit').val();
     telefono=$('#telefonoEdit').val();
@@ -91,7 +93,8 @@ function editarCampus()
 
 function grabarCampus()
 {
-    url="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/createCampus";
+    //var url="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/createCampus";
+    var url=construirUrl("ServidorProyectoIris/webresources/CrudCampus/createCampus");
     
     nombre=$('#nombre').val();
     direccion=$('#direccion').val();
@@ -147,7 +150,8 @@ function eliminar(idCampus)
         return;
     }
 
-    urlEliminar="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/deleteCampus";
+    //urlEliminar="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/deleteCampus";
+    urlEliminar=construirUrl("ServidorProyectoIris/webresources/CrudCampus/deleteCampus");
 
     var parametros={
         idCampus:idCampus

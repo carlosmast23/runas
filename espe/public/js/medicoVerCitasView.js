@@ -6,7 +6,8 @@ window.onload = function () {
 function cargarCitas()
 {
     //TODO: NO TIENE IMPLEMENTADO LA FUNCION PARA CONSULTAR POR CEDULA
-    var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/getCitaList';
+    //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/getCitaList';
+    var url =construirUrl('ServidorProyectoIris/webresources/CrudCita/getCitaList');
     $('#tabla tbody tr').remove();
 
     //alert($("#cedulaUsuario").val());

@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="<?php echo base_url() ?>public/js/parametros.js"  ></script>
 	<script src="<?php echo base_url() ?>public/js/loginView.js"  ></script>
 	
 
@@ -93,7 +94,8 @@
 	<form class="form-signin">
 		<img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
 		<h1 class="h3 mb-3 font-weight-normal">IRISO</h1>
-		
+		<img style="margin-bottom: 15px" src="<?php echo base_url() ?>public/img/logo_espe.png" width="80%">
+
 		<label for="inputEmail" class="sr-only">usuario</label>
 		<input type="text" id="usuario" class="form-control" placeholder="Usuario" required autofocus/>
 		

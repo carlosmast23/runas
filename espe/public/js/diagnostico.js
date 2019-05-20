@@ -5,7 +5,8 @@ window.onload = function () {
 };
 
 function cargarDiagnostico() {
-    var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudDiagnostico/getDiagnosticoList';
+    //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudDiagnostico/getDiagnosticoList';
+    var url =construirUrl('ServidorProyectoIris/webresources/CrudDiagnostico/getDiagnosticoList');
     $('#tabla tbody tr').remove();
 
     $.ajax({
@@ -63,7 +64,8 @@ function eliminar(idDiagnostico)
         return;
     }
 
-    urlEliminar="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudDiagnostico/deleteDiagnostico";
+    //urlEliminar="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudDiagnostico/deleteDiagnostico";
+    urlEliminar=construirUrl("ServidorProyectoIris/webresources/CrudDiagnostico/deleteDiagnostico");
 
 
     var parametros={
@@ -93,7 +95,8 @@ function eliminar(idDiagnostico)
 
 function grabarDiagnostico()
 {
-    url="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudDiagnostico/createDiagnostico";
+    //url="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudDiagnostico/createDiagnostico";
+    url=construirUrl("ServidorProyectoIris/webresources/CrudDiagnostico/createDiagnostico");
     
     codCita=$('#cita :selected').val();
     fecha=$('#fecha').val();
@@ -160,7 +163,8 @@ function limpiarCampos()
 
 
 function cargarCitas() {
-    var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/getCitaList';
+    //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/getCitaList';
+    var url =construirUrl('ServidorProyectoIris/webresources/CrudCita/getCitaList');
     //$('#tabla tbody tr').remove();
 
     $.ajax({

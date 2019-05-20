@@ -60,6 +60,7 @@
 <table id="tabla" class="table table-striped">
     <thead>
         <tr>
+            <th>Código</th>
             <th>Cedula</th>
             <th>Nombres</th>
             <th>Apellidos</th>

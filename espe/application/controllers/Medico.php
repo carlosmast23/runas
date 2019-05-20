@@ -64,5 +64,10 @@ class Medico extends CI_Controller {
         $this->load->view('plantilla/menu_medico',$datos);
         $this->load->view($view);
         $this->load->view('plantilla/footer');        
+	}
+	
+	public function consultarDiagnostico()
+    {
+        $this->buildView('paciente/consultar_diagnostico.php','Consultar Diagnostico');
     }
 }

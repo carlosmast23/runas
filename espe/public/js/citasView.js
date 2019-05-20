@@ -6,7 +6,8 @@ window.onload = function () {
 
 
 function cargarCitas() {
-    var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/getCitaList';
+    //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/getCitaList';
+    var url = construirUrl('ServidorProyectoIris/webresources/CrudCita/getCitaList');
     $('#tabla tbody tr').remove();
 
     $.ajax({
@@ -33,7 +34,8 @@ function cargarCitas() {
 }
 
 function cargarCampus() {
-    var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/getCampusList';
+    //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCampus/getCampusList';
+    var url = construirUrl('ServidorProyectoIris/webresources/CrudCampus/getCampusList');
     //$('#tabla tbody tr').remove();
 
     $.ajax({
@@ -58,7 +60,8 @@ function cargarCampus() {
 }
 
 function cargarPacientes() {
-    var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudPaciente/getPacienteList';
+    //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudPaciente/getPacienteList';
+    var url = construirUrl('ServidorProyectoIris/webresources/CrudPaciente/getPacienteList');
 
     $.ajax({
         url: url,
@@ -111,7 +114,8 @@ function eliminar(idCita)
         return;
     }
 
-    urlEliminar="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/deleteCita";
+    //urlEliminar="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/deleteCita";
+    urlEliminar=construirUrl("ServidorProyectoIris/webresources/CrudCita/deleteCita");
 
     var parametros={
         idCita:idCita
@@ -137,7 +141,8 @@ function eliminar(idCita)
 }
 
 function grabarCita() {
-    url = "http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/createCita";
+    //url = "http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/createCita";
+    url =construirUrl("ServidorProyectoIris/webresources/CrudCita/createCita");
 
     fecha = $('#fecha').val();
     hora = $('#hora').val();
