@@ -22,12 +22,12 @@
     <!-- SECCION CABECERA-->
     <div class="cabecera">
         <div class="row">
-            <div class="col-sm-4 col-lg-3 ">
+            <div class="col-sm-6 col-lg-3 ">
                 <p style="text-align: center">
                     <a href="<?= base_url() ?>index.php/welcome/index"><img src="<?= base_url() ?>public/img/logo/logo_superior.png" width="180px"><a>
                 </p>
             </div>
-            <div class="col-sm-4 col-lg-6">
+            <div class="col-sm-6 col-lg-6">
                 <div class="pie_pagina_redes_sociales" style="text-align: center">
                     <a href="https://www.facebook.com/App.Refer/  "><img src="<?= base_url() ?>public/img/iconos/facebook.png" width="40px"></img></a>
                     <a href="https://twitter.com/app_refer"><img src="<?= base_url() ?>public/img/iconos/twiter.png" width="40px"></img></a>
@@ -36,7 +36,7 @@
                     <a href="https://www.youtube.com/channel/UCvywCRXEPPYs43yfM2_7n2Q?view_as=subscriber"><img src="<?= base_url() ?>public/img/iconos/youtube.png" width="40px"></img></a>
                 </div>
             </div>
-            <div class="col-sm-4 col-lg-3" style="text-align: center">
+            <div class="col-sm-12 col-lg-3" style="text-align: center">
                     <h2 style="vertical-align: baseline">
                         <img src="<?= base_url() ?>public/img/iconos/otros/telefono.png" width="40px;" style="vertical-align: baseline;padding-right: 15px;"></img>55 4000 0962
                     </h2>

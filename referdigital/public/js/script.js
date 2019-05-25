@@ -1,5 +1,11 @@
 $(window).on('load', function () {
-    $('#miModal').modal('show');
+    //alert("iniciando");
+    var mostrarDialogo=$('#mostrarDialogo').val();
+    //alert(mostrarDialogo);
+    if(mostrarDialogo==="si")
+    {   
+        $('#miModal').modal('show');
+    }
 });
 
 function abrirModal($nombreModal) {

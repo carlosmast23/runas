@@ -81,8 +81,13 @@ h2,h1,h3{
 
 #titulo_modal
 {
-    background-image: url(../img/logo/logo_peque.png);
+    /*background-image: url(../img/logo/logo_peque.png);
     background-repeat: no-repeat;
     background-size: 30px auto;
-    background-position: 20px 2px;
+    background-position: 20px 2px;*/
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #37cde7 !important;
+    border: 0px;
 }

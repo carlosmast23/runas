@@ -3,6 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 
+
 	/**
 	 * Index Page for this controller.
 	 *
@@ -20,9 +21,20 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		//=========> INICIAR VARIABLES DE LA SESSION <===========//
+		//$if()
+		$this->load->library('session');
+		$this->session->userdata('visitado','true');
+		$mostrarDialogo="no";
+		if(!isset($_SESSION['visitado'])) //si el valor visitado no existe 
+		{
+			$this->session->set_userdata ('visitado','si');
+			$mostrarDialogo="si";			
+		}
+
 		$this->load->model('PreguntaModel');
 		$result=$this->PreguntaModel->todasPreguntas();
-		$data=array('consulta'=>$result);
+		$data=array('consulta'=>$result,'mostrarDialogo'=>$mostrarDialogo);
 
 		$this->load->view('cabecera');
 		$this->load->view('index',$data);

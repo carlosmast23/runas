@@ -1,3 +1,4 @@
+<input id="mostrarDialogo" type="hidden" value="<?php echo $mostrarDialogo; ?>" />
 <div class="titulo_general">
     <h1 style="text-align: center;font-size:50px">#Refiere<spam style="font-size: 35px">Y</spam>Gana</h1>
 </div>
@@ -8,17 +9,17 @@
 
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-6">
-            <div style="font-family: Oswald-Regular;font-size: 26px;margin-top: 15vw;margin-bottom: 5%">
+            <div style="font-family: Oswald-Light;font-size: 26px;margin-top: 20vw;margin-bottom: 5%">
                 <ul style="text-align: justify;padding-right: 30px">
-                    <li>Inscribe negocios a REFER y gana.</li>
-                    <li>Crea un código QR único que integras a tus fotos y vídeos cuando compras en un establecimiento.</li>
-                    <li>Cada código tiene una promoción que puede ser redimida en el establecimiento que se está refiriendo al hacer una compra.</li>
-                    <li>Entre más negocios inscribas, más ganas.</li>
+                    <li style="padding-bottom: 15px;">Inscribe negocios a REFER y gana.</li>
+                    <li style="padding-bottom: 15px;">Crea un código QR único que integras a tus fotos y vídeos cuando compras en un establecimiento.</li>
+                    <li style="padding-bottom: 15px;">Cada código tiene una promoción que puede ser redimida en el establecimiento que se está refiriendo al hacer una compra.</li>
+                    <li style="padding-bottom: 15px;">Entre más negocios inscribas, más ganas.</li>
                 </ul>
             </div>
 
             <h1 style="text-align: center;padding: 20px;font-family: Oswald-Medium;">Descarga Refer Gratis</h1>
-            <div class="pie_pagina_redes_sociales" style="text-align: center;margin-bottom: 17vw">
+            <div class="pie_pagina_redes_sociales" style="text-align: center;margin-bottom: 10vw">
                 <a href="."><img src="<?= base_url() ?>public/img/iconos/app_store.png"></img></a>
                 <a href="."><img src="<?= base_url() ?>public/img/iconos/google_play.png"></img></a>
             </div>
@@ -27,7 +28,7 @@
 </div>
 
 <!-- SECCION DE DESCRIPCION-->
-<div class="row" style="margin: 30px;text-align: center;">
+<div class="row" style="margin: 20px;text-align: center;font-size: 18px">
     <div class="col-lg-3">
         <img src="<?= base_url() ?>public/img/iconos_medianos/circulo1.png"></img>
         <h2 style="text-align: center;font-family:Oswald-Medium">Negocio</h2>
@@ -138,33 +139,46 @@
                 <h4 class="modal-title" id="myModalLabel"></h4>
             </div>
             <div class="modal-body">
-                <h2 id="titulo_modal" style="font-family: Oswald-Light;text-align: center;margin-bottom:20px;margin-top:20px;font-size: 25px">Descarga-Refiere-Gana</h2>
+                <h1 style="text-align: center">Refer</h1>
+                <h3 style="text-align: center;padding: 5px;font-family: Oswald-Medium;">Descarga Refer Gratis</h3>
+                <div class="pie_pagina_redes_sociales" style="text-align: center;margin-bottom:5px">
+                    <a href="."><img src="<?= base_url() ?>public/img/iconos/app_store.png"></img></a>
+                    <a href="."><img src="<?= base_url() ?>public/img/iconos/google_play.png"></img></a>
+                </div>
+
+                <div style="margin-left: 10%;margin-right: 10%;border-width: 1px;border-style: solid;border-color:rgb(222,226,230);" ></div>
+
+                <h2 id="titulo_modal" style="font-family: Oswald-Light;text-align: center;margin-bottom:20px;margin-top:20px;font-size: 25px;padding-left:100px;padding-right:100px;">Quieres registrar tu negocio en Refer?</h2>
 
                 <form style="padding-left: 80px;padding-right: 80px">
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                        <input type="email" class="form-control border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Telefono">
+                        <input type="email" class="form-control border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre Empresa">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="2"></textarea>
+                        <input type="email" class="form-control border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Teléfono">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                     </div>
 
                     <div class="form-group text-xs-center">
                         <div style="text-align: center" class="g-recaptcha " data-sitekey="6Ld_up0UAAAAAC9Mf-VMI7oetZnWFBwU4qUk_Exq"></div>
                     </div>
 
-                    <div class="form-group" style="text-align: center">
-                        <button type="button" style="width: 100px" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                    <div class="form-group" style="text-align: center; padding-bottom: 35px;">
+                        <button type="button" style="width: 100px;" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
                             Enviar
                         </button>
                     </div>
 
                 </form>
                 <div>
-                    <img src="<?= base_url() ?>public/img/wallpaper_pie_pagina.png" width="100%">
+                    <img style="position: absolute;bottom:0px" src="<?= base_url() ?>public/img/logo/logo_recortado.png" >
                 </div>
+                
             </div>
         </div>
     </div>
