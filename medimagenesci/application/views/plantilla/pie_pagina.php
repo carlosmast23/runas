@@ -12,7 +12,7 @@ con <i class="icon-heart" aria-hidden="true"></i>
 </div>
 
 
-<script src="<?= base_url() ?>public/jquery-3.3.1.min.js"></script>
+<script src="<?= base_url() ?>public/js/jquery-3.3.1.min.js"></script>
 <script src="<?= base_url() ?>public/js/jquery-migrate-3.0.1.min.js"></script>
 <script src="<?= base_url() ?>public/js/jquery-ui.js"></script>
 <script src="<?= base_url() ?>public/js/popper.min.js"></script>
