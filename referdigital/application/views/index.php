@@ -20,8 +20,8 @@
 
             <h1 style="text-align: center;padding: 20px;font-family: Oswald-Medium;">Descarga Refer Gratis</h1>
             <div class="pie_pagina_redes_sociales" style="text-align: center;margin-bottom: 10vw">
-                <a href="."><img src="<?= base_url() ?>public/img/iconos/app_store.png"></img></a>
-                <a href="."><img src="<?= base_url() ?>public/img/iconos/google_play.png"></img></a>
+                <a href="."><img style="margin-left: 20px;margin-right: 20px;" src="<?= base_url() ?>public/img/iconos/app_store.png"></img></a>
+                <a href="."><img style="margin-left: 20px;margin-right: 20px;" src="<?= base_url() ?>public/img/iconos/google_play.png"></img></a>
             </div>
         </div>
     </div>
@@ -29,11 +29,11 @@
 
 <!-- SECCION DE DESCRIPCION-->
 <div class="row" style="margin: 20px;text-align: center;font-size: 18px">
-    <div class="col-lg-3">
-        <img src="<?= base_url() ?>public/img/iconos_medianos/circulo1.png"></img>
+    <div class="col-md-6 col-lg-3">
+        <img width="80%" src="<?= base_url() ?>public/img/iconos_medianos/circulo1.png"></img>
         <h2 style="text-align: center;font-family:Oswald-Medium">Negocio</h2>
         <ul style="text-align: left;">
-            <li>Crea diferentes promociones. Las que tu quieras.</li>
+            <li>Crea diferentes promociones. Las que tú quieras.</li>
             <li>Un microinfluencer creará un código QR único que compartirá en sus redes sociales.</li>
             <li>Las personas que visiten tu negocio mostrando ese código QR disfrutará de las promociones.</li>
             <li>Una nueva manera de saber de dónde llegan tus clientes.</li>
@@ -41,8 +41,8 @@
         </ul>
 
     </div><!-- /.col-lg-4 -->
-    <div class="col-lg-3">
-        <img src="<?= base_url() ?>public/img/iconos_medianos/circulo2.png"></img>
+    <div class="col-md-6 col-lg-3">
+        <img width="80%" src="<?= base_url() ?>public/img/iconos_medianos/circulo2.png"></img>
         <h2 style="text-align: center;font-family:Oswald-Medium">MicroInfluencer</h2>
         <ul style="text-align: left;">
             <li>Afíliate y crea tu código QR por cada lugar que recomiendes.</li>
@@ -50,8 +50,8 @@
         </ul>
 
     </div><!-- /.col-lg-4 -->
-    <div class="col-lg-3">
-        <img src="<?= base_url() ?>public/img/iconos_medianos/circulo3.png"></img>
+    <div class="col-md-6 col-lg-3">
+        <img width="80%" src="<?= base_url() ?>public/img/iconos_medianos/circulo3.png"></img>
         <h2 style="text-align: center;font-family:Oswald-Medium">Embajador</h2>
         <ul style="text-align: left;">
             <li>Inscribe negocios a REFER y gana.</li>
@@ -60,8 +60,8 @@
             <li>Entre más negocios inscribas, más ganas.</li>
         </ul>
     </div><!-- /.col-lg-4 -->
-    <div class="col-lg-3">
-        <img src="<?= base_url() ?>public/img/iconos_medianos/circulo4.png"></img>
+    <div class="col-md-6 col-lg-3">
+        <img width="80%" src="<?= base_url() ?>public/img/iconos_medianos/circulo4.png"></img>
         <h2 style="text-align: center;font-family:Oswald-Medium">Usuario</h2>
         <ul style="text-align: left;">
             <li>Disfruta los diferentes beneficios de los lugares que te recomienden enseñando el código QR.</li>
@@ -140,15 +140,15 @@
             </div>
             <div class="modal-body">
                 <h1 style="text-align: center">Refer</h1>
-                <h3 style="text-align: center;padding: 5px;font-family: Oswald-Medium;">Descarga Refer Gratis</h3>
+                <h3 style="text-align: center;padding: 5px;font-family: Oswald-Medium;">Descarga Refer GRATIS</h3>
                 <div class="pie_pagina_redes_sociales" style="text-align: center;margin-bottom:5px">
-                    <a href="."><img src="<?= base_url() ?>public/img/iconos/app_store.png"></img></a>
-                    <a href="."><img src="<?= base_url() ?>public/img/iconos/google_play.png"></img></a>
+                    <a href="."><img style="margin-left: 20px;margin-right: 20px;" src="<?= base_url() ?>public/img/iconos/app_store.png"></img></a>
+                    <a href="."><img style="margin-left: 20px;margin-right: 20px;" src="<?= base_url() ?>public/img/iconos/google_play.png"></img></a>
                 </div>
 
-                <div style="margin-left: 10%;margin-right: 10%;border-width: 1px;border-style: solid;border-color:rgb(222,226,230);" ></div>
+                <div style="margin-left: 10%;margin-right: 10%;border-width: 1px;border-style: solid;border-color:rgb(222,226,230);"></div>
 
-                <h2 id="titulo_modal" style="font-family: Oswald-Light;text-align: center;margin-bottom:20px;margin-top:20px;font-size: 25px;padding-left:100px;padding-right:100px;">Quieres registrar tu negocio en Refer?</h2>
+                <h2 id="titulo_modal" style="font-family: Oswald-Light;text-align: center;margin-bottom:20px;margin-top:20px;font-size: 25px;padding-left:100px;padding-right:100px;">¿Quieres registrar tu negocio en Refer?</h2>
 
                 <form style="padding-left: 80px;padding-right: 80px">
                     <div class="form-group">
@@ -176,9 +176,9 @@
 
                 </form>
                 <div>
-                    <img style="position: absolute;bottom:0px" src="<?= base_url() ?>public/img/logo/logo_recortado.png" >
+                    <img style="position: absolute;bottom:0px" src="<?= base_url() ?>public/img/logo/logo_recortado.png">
                 </div>
-                
+
             </div>
         </div>
     </div>
