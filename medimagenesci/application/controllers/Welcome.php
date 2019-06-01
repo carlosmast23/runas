@@ -73,6 +73,16 @@ class Welcome extends CI_Controller {
         $this->load->view('plantilla/pie_pagina');
 	}
 
+	
+	public function nuestrosMedicos()
+	{
+		//$dato['string']="hola bebe";
+		//$this->load->view('welcome_message',$dato);
+		$this->load->view('plantilla/cabecera');
+        $this->load->view('nuestros_medicos');
+        $this->load->view('plantilla/pie_pagina');
+	}
+
 
 	public function servicio_ecografia()
 	{

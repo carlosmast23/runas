@@ -81,8 +81,8 @@
                 </div>
                 <h2>Nuestros Servicios</h2>
               </div>
-              <video width="100%" controls autoplay>
-                  <source src="<?= base_url() ?>public/videos/video2.mp4" type="video/mp4">       
+              <video id="vid"  width="100%" controls autoplay muted loop >
+                <source src="<?= base_url() ?>public/videos/video2.mp4" type="video/mp4">
               </video>
             </div>
           </div>

@@ -73,7 +73,13 @@
 
               <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
               <li class="active"><a href="<?= base_url() ?>index.php/welcome/index">Inicio</a></li>
-                <li><a href="<?= base_url() ?>index.php/welcome/nosotros">Quienes Somos</a></li>
+              <li class="has-children">
+                  <a href="#">Quienes Somos</a>
+                  <ul class="dropdown">
+                    <li><a href="<?= base_url() ?>index.php/welcome/nosotros">Nosotros</a></li>                  
+                    <li><a href="<?= base_url() ?>index.php/welcome/nuestrosMedicos">Nuestros Medicos</a></li>                  
+                  </ul>
+                </li>
                 <li class="has-children">
                   <a href="#">Servicios</a>
                   <ul class="dropdown">
