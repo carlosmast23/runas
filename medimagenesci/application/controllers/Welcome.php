@@ -83,6 +83,31 @@ class Welcome extends CI_Controller {
         $this->load->view('plantilla/pie_pagina');
 	}
 
+	public function estudios()
+	{
+		//$dato['string']="hola bebe";
+		//$this->load->view('welcome_message',$dato);
+		$this->load->view('plantilla/cabecera');
+        $this->load->view('estudios');
+        $this->load->view('plantilla/pie_pagina');
+	}
+
+	public function incidencias()
+	{
+		$this->load->view('plantilla/cabecera');
+        $this->load->view('incidencias');
+        $this->load->view('plantilla/pie_pagina');
+	}
+
+	public function tomografiaSimple()
+	{
+		//$dato['string']="hola bebe";
+		//$this->load->view('welcome_message',$dato);
+		$this->load->view('plantilla/cabecera');
+        $this->load->view('tomografia_simple');
+        $this->load->view('plantilla/pie_pagina');
+	}
+
 
 	public function servicio_ecografia()
 	{

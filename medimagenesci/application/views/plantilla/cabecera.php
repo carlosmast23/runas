@@ -84,14 +84,23 @@
                   <a href="#">Servicios</a>
                   <ul class="dropdown">
                     <li><a href="<?= base_url() ?>index.php/welcome/servicio_resonancia">Resonancia Magnética</a></li>
-                    <li><a href="<?= base_url() ?>index.php/welcome/servicio_tomografia">Tomografía axial</a></li>
+                    <li><a href="<?= base_url() ?>index.php/welcome/estudios">Estudios</a></li>
+                    <li><a href="<?= base_url() ?>index.php/welcome/tomografiaSimple">Tomografía simple</a></li>
+                    <li><a href="<?= base_url() ?>index.php/welcome/servicio_tomografia">Tomografía axial</a></li>                    
                     <li><a href="<?= base_url() ?>index.php/welcome/servicio_ecografia">Ecografía 3d - 4d</a></li>
                     <li><a href="<?= base_url() ?>index.php/welcome/servicio_rayosx">Rayos X Digital</a></li>
                     <li><a href="<?= base_url() ?>index.php/welcome/servicio_mamografia">Mamografía digital</a></li>
                     <li><a href="<?= base_url() ?>index.php/welcome/servicio_densitometria">Densitometría</a></li>
                   </ul>
                 </li>
-                <li><a href="<?= base_url() ?>index.php/welcome/empresa">Empresa</a></li>
+                <li class="has-children">
+                  <a href="<?= base_url() ?>index.php/welcome/empresa">Empresa</a>
+                  <ul class="dropdown">                    
+                    <li><a href="http://181.39.1.78:8080/dcm4chee-web3/">Sistema Medico</a></li>                  
+                    <li><a href="<?= base_url() ?>index.php/welcome/incidencias">Incidencias</a></li>                  
+                  </ul>
+                </li>
+                
                 <li class="has-children">
                   <a href="#">Galeria</a>
                   <ul class="dropdown">
