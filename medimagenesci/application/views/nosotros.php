@@ -4,17 +4,10 @@
 
     <h1 style="text-align: center">Nuestra Historia</h1>
     <p>
-            Los exámenes radiológicos son considerados una de las herramientas más valiosas para la investigación diagnóstica y el tratamiento de las enfermedades. Bajo este concepto se fundó en el año 2001 el Centro Radiológico Medimágenes Cia. Ltda.
-        
-        Iniciamos atendiendo a nuestros pacientes en Rayos X y ecografías portátiles. En el año 2002 se integra un grupo de médicos visionarios profesionales en radiología para ofrecer adicionalmente los servicios de Ecografía 3D-4D, Mamografía y Densitometría. En el año 2009 se incrementan los servicios con Tomografía computarizada helicoidal, ecocardiografía y Rayos X digital.
-        
-        En el año 2012 incorporamos el servicio de Resonancia Magnética, con la adquisición de un equipo marca Siemens de 1.5 teslas, adicionalmente actualizamos la tecnología en Tomografía incorporando un Tomógrafo marca Siemens de 16 cortes.
-        
-        En el último año hemos adquirido 2 equipos de Ecografía General Electric , de última generación que permiten adicionalmente realizar procedimientos de vanguardia como la elastografía.
-        
-        En el último año hemos adquirido 2 equipos de Ecografía General Electric , de última generación que permiten adicionalmente realizar procedimientos de vanguardia como la elastografía.
-        
-        Medimágenes ratifica su compromiso con el desarrollo tecnológico brindando el mejor servicio a pacientes y a médicos con diagnósticos oportunos y confiables. Nuestros profesionales médicos constantemente se capacitan en las últimas tecnologías clínicas.
+    Los exámenes radiológicos son considerados una de las herramientas más valiosas para la investigación diagnóstica y el tratamiento de las enfermedades. Bajo este concepto se fundó en el año 2001 el Centro Radiológico Medimágenes Cia. Ltda. Iniciamos atendiendo a nuestros pacientes en Rayos X y ecografías portátiles. En el año 2002 se integra un grupo de médicos visionarios profesionales en radiología para ofrecer adicionalmente los servicios de Ecografía 3D-4D, Mamografía y Densitometría. En el año 2009 se incrementan los servicios con Tomografía computarizada helicoidal, ecocardiografía y Rayos X digital. En el año 2012 incorporamos el servicio de Resonancia Magnética, con la adquisición de un equipo marca Siemens de 1.5 teslas, en noviembre del 2018 adquirimos un nuevo resonador marca Siemens  de 3 teslas primero de su tipo en el pais,  su tecnología de vanguardia  nos permite realizar estudios especializados como Resonancia funcional de Cerebro, Resonancia de Corazón etc. Actualizamos la tecnología en Tomografía incorporando un Tomógrafo marca Siemens de 16 cortes. Utilizamos equipos de Ecografía marca General Eléctric de última generación, que permiten realizar procedimientos como la elastografía.
+Medimágenes ratifica su compromiso con el desarrollo tecnológico brindando el mejor servicio a pacientes y a médicos con diagnósticos oportunos y confiables. Nuestros profesionales médicos constantemente se capacitan en las últimas tecnologías clínicas.
+
+
         </p>
 
 

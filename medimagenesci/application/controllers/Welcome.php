@@ -99,6 +99,13 @@ class Welcome extends CI_Controller {
         $this->load->view('plantilla/pie_pagina');
 	}
 
+	public function ejemplo()
+	{
+		$this->load->view('plantilla/cabecera');
+        $this->load->view('ejemplo');
+        $this->load->view('plantilla/pie_pagina');
+	}
+
 	public function tomografiaSimple()
 	{
 		//$dato['string']="hola bebe";

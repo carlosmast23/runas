@@ -12,8 +12,10 @@
   <div class="col-md-8 p-lg-8 mx-auto my-8">
     <h1 class="display-4 font-weight-normal">Dr. Edgar Obando P.</h1>
     <h4 class="display-6 font-weight-bold">Títulos</h4>
-    <p class="lead font-weight-normal">Medicina General. Universidad ........................, tercer nivel.
-Especialista en Radiología e Imagen Universidad Central del Ecuador, postgrado</p>
+    <p class="lead font-weight-normal">Medicina general Instituto superior de ciencias médicas -La Habana Cuba- tercer nivel.
+Médico radiólogo Universidad Central del Ecuador.
+Fellow RM e Imagen músculo esquelética universidad Emory Atlanta EEUU
+</p>
     <h4 class="display-6 font-weight-bold">Experiencia</h4>
     <p class="lead font-weight-normal">Hospital “SOLCA” Núcleo de Quito Hospital Metropolitano (en curso) Centro Radiológico “Medimágenes”. Radiología General (en curso) Profesor en la Universidad Central del Ecuador.</p>
   </div> 
