@@ -36,6 +36,12 @@ class Medico extends CI_Controller {
 		$this->buildView('medico/diagnostico','Diagnostico');
 	}
 
+	public function procesarImagen()
+	{
+		$this->buildView('medico/procesar_imagen','Procesar Imagen');
+	}
+
+
 
 	
 	public function campus()

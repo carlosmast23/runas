@@ -91,6 +91,7 @@ function grabarPaciente() {
     //url="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudPaciente/createPaciente";
     url=construirUrl("ServidorProyectoIris/webresources/CrudPaciente/createPaciente");
 
+    var codigo = $('#codigo').val();
     var cedula = $('#cedula').val();
     var nombres = $('#nombres').val();
     var apellidos = $('#apellidos').val();
@@ -120,25 +121,27 @@ function grabarPaciente() {
     }
 
     var parametros={
-        codPa:"99",
+        codPa:codigo,
         ciPaciente:cedula,
         nombresPa:nombres,
         apellidosPa:apellidos,
+        edadPa: 25,
         ocupacionPa:ocupacion,
         regularidadAlimPa:regularidadAlimentaria,
+        enferrmedadOcular: false,
         consumeAlcoholReg:regularidadconsumeAlcohollimentaria,
         consumeTabacoReg:consumeTabaco,
         tieneAcidezEstomacal:acidezEstomacal,
         consumoPsc:consumePsc,
         tieneGastritis:tieneGastritis,
-        fechaGastritis:fecha,
-        repoPaciente:"No se para que sirve",
+        fehcaGastritis:"2019-03-13",        
         tieneArdor:tieneArdor,
-        parienteConGastritis:parienteConGastritis,
+        prienteConGastritis:parienteConGastritis,
     };
 
     jsonParametros=JSON.stringify(parametros), 
     console.log(jsonParametros);
+    
     //alert(jsonParametros);
 
     $.ajax({
@@ -151,6 +154,7 @@ function grabarPaciente() {
         success: function (json) {
             alert('Paciente Guardado');
             limpiarDatos();
+            cargarPacientes();
         }
     }).fail(function(xhr,textStatus,err){
         alert(err);
@@ -161,6 +165,7 @@ function grabarPaciente() {
 
 function limpiarDatos()
 {
+    $('#codigo').val("");
     $('#cedula').val("");
     $('#nombres').val("");
     $('#apellidos').val("");

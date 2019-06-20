@@ -4,6 +4,9 @@
 <div class="row">
     <div class="offset-md-3 col-md-6">
         <form>
+        <div class="form-group">
+                <input type="text" class="form-control" id="codigo" aria-describedby="emailHelp" placeholder="Código" >
+            </div>
             <div class="form-group">
                 <input type="text" class="form-control" id="cedula" aria-describedby="emailHelp" placeholder="Cedula" >
             </div>
