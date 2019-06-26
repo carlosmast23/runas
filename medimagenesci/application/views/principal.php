@@ -6,6 +6,10 @@
 
         <div class="row justify-content-center mb-4">
           <div class="col-md-8 text-center">
+            <img width="35%" src="<?= base_url() ?>public/images/logo.png" alt="Image" class="img-fluid">
+            <br />
+            <br />
+            <br />
             <h1>Profesionales especializados <span class="typed-words"></span></h1>
             <p class="lead mb-5">Centro médico especializado en imagenología.</p>
             <div><a href="<?= base_url() ?>index.php/welcome/contactanos" class="btn btn-primary btn-md">Contactanos</a></div>
@@ -72,18 +76,18 @@
   <div class="container">
     <div class="row align-items-stretch">
       <div class="col-12 bg-black w-100 ft-feature-1-content">
-        <div class="row align-items-top" >
-          <div class="col-lg-5" >
-            <div class="h-100 " >
+        <div class="row align-items-top">
+          <div class="col-lg-5">
+            <div class="h-100 ">
               <div class="mb-5 d-flex align-items-center">
                 <div>
                   <a href="https://vimeo.com/317571768" class="popup-vimeo d-block play"><span class="icon-play"></span></a>
                 </div>
                 <h2>Nuestros Servicios</h2>
               </div>
-              <video id="vid"  width="100%" controls autoplay muted loop >
-                <source src="<?= base_url() ?>public/videos/video2.mp4" type="video/mp4">
-              </video>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qIZ7Azeu-R8?rel=0&autoplay=1&mute=1" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
           <div class="col-lg-3 ml-auto">
@@ -247,8 +251,8 @@
   </div>
 </section>
 
-<div style="text-align: center">Medimágenes 
-Italia y Vancouver 
-N 30-145 Quito-Ecuador </div>
+<div style="text-align: center">Medimágenes
+  Italia y Vancouver
+  N 30-145 Quito-Ecuador </div>
 <!-- SECCION MAPA-->
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.795986421813!2d-78.49246438110376!3d-0.1917095570827173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a65eccdaf1d%3A0x6531742bf35eb418!2sMedim%C3%A1genes!5e0!3m2!1ses!2sec!4v1553966004882!5m2!1ses!2sec" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>

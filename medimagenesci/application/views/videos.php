@@ -1,10 +1,11 @@
 <div class="container ">
-    
-    <video width="100%" controls muted>
-        <source src="<?= base_url() ?>public/videos/video1.mp4" type="video/mp4">       
-    </video>
 
-    <video width="100%" controls muted>
-        <source src="<?= base_url() ?>public/videos/video2.mp4" type="video/mp4">       
-    </video>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qIZ7Azeu-R8?rel=0&autoplay=1&mute=1" allowfullscreen></iframe>
+    </div>
+
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1GtkOXeVud8?rel=0&autoplay=1&mute=1" allowfullscreen></iframe>
+    </div>
+    
 </div>

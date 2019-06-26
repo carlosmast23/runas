@@ -46,7 +46,7 @@
           <div class="col-md-6">
             <p class="mb-0">
               <span class="mr-3"><strong>Telefono:</strong> <a href="tel://#">+593 290-02-27</a></span>
-              <span><strong>Email:</strong> <a href="#">info@medimagenes.ec</a></span>
+              <span><strong>Email:</strong> <a href="mailto:info@medimagenes.ec">info@medimagenes.ec</a></span>
             </p>
           </div>
           <div class="col-md-6">
@@ -54,6 +54,7 @@
               <li><a href="https://www.facebook.com/Medimagenes-EC-2374545445924116/" class="p-2"><span class="icon-facebook"></span></a></li>
               <!--li><a href="#" class="p-2"><span class="icon-twitter"></span></a></li>-->
               <li><a href="https://sometag.org/account/medimagenes/1050073137/followers/?hl=es" class="p-2"><span class="icon-instagram"></span></a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=993107623&text=Hola%20en%20que%20te%20podemos%20ayudar%20" class="p-2"><span class="icon-whatsapp"></span></a></li>
               <!--<li><a href="#" class="p-2"><span class="icon-linkedin"></span></a></li>-->
             </ul>
           </div>

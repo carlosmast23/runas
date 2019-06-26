@@ -50,13 +50,28 @@ Centro Radiológico “Medimágenes”. Radiología General (en curso)</p>
 
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
   <div class="col-md-8 p-lg-8 mx-auto my-8">
-    <h1 class="display-4 font-weight-normal">Dra. Sandra Álvarez</h1>
+    <h1 class="display-4 font-weight-normal">Dra. Cecilia Trujillo</h1>
     <h4 class="display-6 font-weight-bold">Títulos</h4>
-    <p class="lead font-weight-normal">Medicina General Pontificia Universidad Católica del Ecuador, tercer nivel. Especialista en Radiología e Imagen Universidad Central del Ecuador, postgrado.</p>
+    <p class="lead font-weight-normal">Especialista en Radiodiagnóstico e Imagen. Universidad central del Ecuador
+Diplomado en Resonancia magnética. Universidad Nacional de Chile</p>
     <h4 class="display-6 font-weight-bold">Experiencia</h4>
-    <p class="lead font-weight-normal">Hospital “SOLCA” Núcleo de Quito, cuatro años
-Hospital Metropolitano desde hace cuatro años (en curso)
-Centro Radiológico “Medimágenes”. Radiología General (en curso)</p>
+    <p class="lead font-weight-normal">Médico radiólogo con entrenamiento en Resonancia magnética de abdomen y columna (hospital de especialidades Eugenio Espejo, clínica de lesiones hepáticas y biliares), en funciones
+Entrenador certificado WINFOCUS, en funciones
+Entrenamiento en radiología Gíneco Obstétrica y neonatal (hospital Gíneco Obstétrico Isidro Ayora, 3 años)
+Docente de Imagen pregrado y posgrado,  Universidad católica del Ecuador, Universidad Central del Ecuador (4 años)</p>
+  </div> 
+</div>
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+  <div class="col-md-8 p-lg-8 mx-auto my-8">
+    <h1 class="display-4 font-weight-normal">Dr. Byron Farez</h1>
+    <h4 class="display-6 font-weight-bold">Títulos</h4>
+    <p class="lead font-weight-normal">Médico general en universidad nacional de loja
+universidad central del ecuador Título es especialista en radiodiagnostico e imagen.</p>
+    <h4 class="display-6 font-weight-bold">Experiencia</h4>
+    <p class="lead font-weight-normal">Hospital general docente de calderon tres años
+Medimagenes 5 años en curso 
+Hospital lenin mosquera médico tratante un año en curso</p>
   </div> 
 </div>
 
