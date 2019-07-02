@@ -45,7 +45,8 @@
         <div class="row">
           <div class="col-md-6">
             <p class="mb-0">
-              <span class="mr-3"><strong>Telefono:</strong> <a href="tel://#">+593 290-02-27</a></span>
+              <span class="mr-3"><strong>Tel:</strong> <a href="tel://#">2900227</a></span>
+              <span class="mr-3"><strong>Cel:</strong> <a href="tel://#">0993107623</a></span>
               <span><strong>Email:</strong> <a href="mailto:info@medimagenes.ec">info@medimagenes.ec</a></span>
             </p>
           </div>
@@ -64,8 +65,9 @@
     <header class="site-navbar py-4 bg-white" role="banner">
       <div id="menu_area" class="menu-area">
         <div class="container">
-          <div class="row">
+          <div class="row">          
             <nav class="navbar navbar-light navbar-expand-lg mainmenu float-right ">
+            <img height="80px" src="<?= base_url() ?>/public/images/logo_color.png" class="img-responsive" alt="Responsive image">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -76,7 +78,7 @@
                     <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quienes Somos</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a href="<?= base_url() ?>index.php/welcome/nosotros">Nosotros</a></li>
-                      <li><a href="<?= base_url() ?>index.php/welcome/nuestrosMedicos">Nuestros Medicos</a></li>
+                      <li><a href="<?= base_url() ?>index.php/welcome/nuestrosMedicos">Nuestros Médicos</a></li>
                     </ul>
                   </li>
                   <li class="dropdown">
@@ -123,7 +125,7 @@
                     </ul>
                   </li>
 
-                  <li><a href="<?= base_url() ?>index.php/welcome/contactanos">Contactanos</a></li>
+                  <li><a href="<?= base_url() ?>index.php/welcome/contactanos">Contáctanos</a></li>
 
                 </ul>
               </div>

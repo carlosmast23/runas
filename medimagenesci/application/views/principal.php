@@ -12,7 +12,7 @@
             <br />
             <h1>Profesionales especializados <span class="typed-words"></span></h1>
             <p class="lead mb-5">Centro médico especializado en imagenología.</p>
-            <div><a href="<?= base_url() ?>index.php/welcome/contactanos" class="btn btn-primary btn-md">Contactanos</a></div>
+            <div><a href="<?= base_url() ?>index.php/welcome/contactanos" class="btn btn-primary btn-md">Contáctanos</a></div>
           </div>
         </div>
 

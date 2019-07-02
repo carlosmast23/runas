@@ -20,7 +20,7 @@
                             <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quienes Somos</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a href="<?= base_url() ?>index.php/welcome/nosotros">Nosotros</a></li>
-                                <li><a href="<?= base_url() ?>index.php/welcome/nuestrosMedicos">Nuestros Medicos</a></li>
+                                <li><a href="<?= base_url() ?>index.php/welcome/nuestrosMedicos">Nuestros Médicos</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -67,7 +67,7 @@
                             </ul>
                         </li>
 
-                        <li><a href="<?= base_url() ?>index.php/welcome/contactanos">Contactanos</a></li>
+                        <li><a href="<?= base_url() ?>index.php/welcome/contactanos">Contáctanos</a></li>
                         
                     </ul>
                 </div>
