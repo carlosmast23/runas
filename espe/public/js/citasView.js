@@ -2,8 +2,19 @@ window.onload = function () {
     cargarCitas();
     cargarCampus();
     cargarPacientes();
+    setearDatosDefecto();
 };
 
+
+function setearDatosDefecto()
+{
+    var today = obtenerFechaActualSinTiempo();
+    //today.setMonth(today.getMonth+1);
+    var fechaFormato=formatDate(today);
+    //alert(fechaFormato);
+    $('#fecha').val(fechaFormato);
+    
+}
 
 function cargarCitas() {
     //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/getCitaList';
@@ -141,6 +152,11 @@ function eliminar(idCita)
 }
 
 function grabarCita() {
+    if(!confirm('Esta seguro que quiere grabar el registro ?'))
+    {
+        return false;
+    }
+
     //url = "http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudCita/createCita";
     url =construirUrl("ServidorProyectoIris/webresources/CrudCita/createCita");
 
@@ -152,6 +168,24 @@ function grabarCita() {
     if (fecha === "" || hora === "" || campus === "") {
         alert('Porfavor ingrese todos los campos para continuar');
         return;
+    }
+
+    var parts =fecha.split('-');
+
+    var fechaActual=obtenerFechaActualSinTiempo();
+    //alert(fecha.replace('-','/').replace('-','/'));
+    //alert(parts[0]);
+    //alert(parts[1]-1);
+    //alert(parts[2]);
+
+    var fechaGrabar=new Date(parts[0], parts[1] - 1, parts[2],0,0,0,0);
+
+    //alert(fechaActual+"->"+fechaGrabar);
+
+    if(fechaGrabar<fechaActual)
+    {
+        alert("La fecha de la cita no puede ser inferior a la fecha actual");
+        return ;
     }
 
 
@@ -189,4 +223,6 @@ function limpiarCampos()
 {
     fecha = $('#fecha').val('');
     hora = $('#hora').val('');
+    setearDatosDefecto();
+
 }

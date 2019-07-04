@@ -1,8 +1,18 @@
 window.onload = function () {
     cargarDiagnostico();
     cargarCitas();
+    setearDatosDefecto();
 
 };
+
+function setearDatosDefecto()
+{
+    var today = new Date();
+    var fechaFormato=formatDate(today);
+    //alert(fechaFormato);
+    $('#fecha').val(fechaFormato);
+    
+}
 
 function cargarDiagnostico() {
     //var url = 'http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudDiagnostico/getDiagnosticoList';
@@ -95,6 +105,11 @@ function eliminar(idDiagnostico)
 
 function grabarDiagnostico()
 {
+    if(!confirm('Esta seguro que quiere grabar el registro ?'))
+    {
+        return false;
+    }
+
     //url="http://192.188.58.34:5000/ServidorProyectoIris/webresources/CrudDiagnostico/createDiagnostico";
     url=construirUrl("ServidorProyectoIris/webresources/CrudDiagnostico/createDiagnostico");
     
@@ -159,6 +174,7 @@ function limpiarCampos()
 
     $('#descripcion').val('');
     $('#tratamiento').val('');
+    setearDatosDefecto();
 }
 
 

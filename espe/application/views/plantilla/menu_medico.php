@@ -47,6 +47,14 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link " href="<?php echo base_url() ?>index.php/medico/consultarPaciente">
+                                <span data-feather="home"></span>
+                                Consultar Paciente <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item">
                             <a class="nav-link " href="<?php echo base_url() ?>index.php/medico/procesarImagen">
                                 <span data-feather="home"></span>
                                 Procesar Imagen<span class="sr-only">(current)</span>
