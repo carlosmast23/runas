@@ -80,7 +80,7 @@
                     <a class="nav-link" href="<?= base_url() ?>index.php/welcome/index">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="<?= base_url() ?>index.php/welcome/nosotros">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -97,10 +97,10 @@
                     <a class="nav-link" href="<?= base_url() ?>index.php/welcome/videos">Videos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Stock</a>
+                    <a class="nav-link" href="<?= base_url() ?>index.php/welcome/stock">Stock</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="<?= base_url() ?>index.php/welcome/contactanos">Contacto</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
