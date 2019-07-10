@@ -25,40 +25,6 @@
 </head>
 
 <body>
-
-
-    <div class="container">
-        <div class="row" style="margin-top: 15px;margin-bottom:15px">
-            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-                <p class="mb-0">
-                    <span class="mr-3"><strong>Tel:</strong> <a href="tel://#">2900227</a></span>
-                    <span><strong>Email:</strong> <a href="mailto:info@medimagenes.ec">info@medimagenes.ec</a></span>
-                </p>
-
-            </div>
-            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item mr-3">
-                        <a href="#">
-                            <i class="fab fa-facebook fa-2x fa-fw"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item mr-3">
-                        <a href="#">
-                            <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fab fa-instagram fa-2x fa-fw"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
     <!-- Navigation -->
     <!--<nav class="navbar navbar-light bg-light static-top">
         <div class="container">
@@ -69,7 +35,7 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">EnergyPetrol</a>
+        <a class="navbar-brand" href="#">EnergyPetrol - Administrador</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -77,24 +43,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="<?= base_url() ?>index.php/welcome/index">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="<?= base_url() ?>index.php/welcome/index">Categoria <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Nosotros</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Productos y Servicios
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url() ?>index.php/welcome/videos">Videos</a>
+                    <a class="nav-link" href="<?= base_url() ?>index.php/admin/videos" >Videos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Stock</a>
@@ -105,7 +60,7 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
-                <a href="<?= base_url() ?>index.php/welcome/login"  class="btn btn-info" type="submit">Ingresar</a>
+                <a href="<?= base_url() ?>index.php/welcome/index"  class="btn btn-info" type="submit">Salir</a>
             </form>
         </div>
     </nav>

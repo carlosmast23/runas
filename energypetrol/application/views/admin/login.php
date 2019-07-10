@@ -19,7 +19,7 @@
                                 <div class="form-group">
                                     <label for="uname1">Usuario</label>
                                     <input type="text" class="form-control form-control-lg rounded-0" name="usuario" id="usuario" required="true">
-                                    <div class="invalid-feedback">Oops, you missed this one.</div>
+                                    <div class="invalid-feedback">Ingrese el usuario.</div>
                                 </div>
                                 <div class="form-group">
                                     <label>Contraseña</label>
@@ -32,7 +32,7 @@
                                       <span class="custom-control-indicator"></span>                                      
                                     </label>
                                 </div>
-                                <button type="submit" class="btn btn-success btn-lg float-right" id="btnLogin">Ingresar</button>
+                                <button type="submit" class="btn btn-success btn-lg float-right" id="btnLogin">Acceder</button>
                             </form>
                         </div>
                         <!--/card-block-->

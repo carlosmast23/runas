@@ -25,11 +25,46 @@ class Welcome extends CI_Controller {
 		$this->load->view('plantilla/piepagina.php');
 	}
 
-	public function login()
+	public function videos()
 	{
+		$this->load->model('VideoModel');
+        $result = $this->VideoModel->todosVideo();
+        $data = array('consulta' => $result);
+
 		$this->load->view('plantilla/cabecera.php');
-		$this->load->view('admin/login.php',array("error"=>false));
-		//$this->load->view('admin/login.php');
+		$this->load->view('videos.php',$data);
 		$this->load->view('plantilla/piepagina.php');
 	}
+
+	public function login()
+	{
+		if(isset($_POST['clave']))
+        {
+            $this->load->model('UsuarioModel');
+            $resultado=$this->UsuarioModel->login($_POST['usuario'],$_POST['clave']);
+            if($resultado)
+            {
+                redirect('admin');
+                //$this->vistaLogin();
+            }
+            else{
+                $this->vistaLogin(True);
+            }
+            
+        }
+        else
+        {
+            $this->vistaLogin(False);
+        }
+
+		
+	}
+
+	public function vistaLogin($error)
+    {
+        $this->load->view('plantilla/cabecera_limpia.php');
+		$this->load->view('admin/login.php',array("error"=>$error));
+		//$this->load->view('admin/login.php');
+		$this->load->view('plantilla/piepagina.php');
+    }
 }
