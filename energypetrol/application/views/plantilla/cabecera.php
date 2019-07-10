@@ -26,6 +26,10 @@
 
 <body>
 
+    <?php
+    header('Access-Control-Allow-Origin: *');
+    ?>
+
 
     <div class="container">
         <div class="row" style="margin-top: 15px;margin-bottom:15px">
@@ -105,14 +109,13 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
-                <a href="<?= base_url() ?>index.php/welcome/login"  class="btn btn-info" type="submit">Ingresar</a>
+                <a href="<?= base_url() ?>index.php/welcome/login" class="btn btn-info" type="submit">Ingresar</a>
             </form>
         </div>
     </nav>
-    
-    
-<!--<div class="container ">
+
+
+    <!--<div class="container ">
     <div style="height: 50px">   
 </div>-->
-<!--/container-->
-
+    <!--/container-->
