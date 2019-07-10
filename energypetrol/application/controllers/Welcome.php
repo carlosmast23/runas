@@ -25,6 +25,13 @@ class Welcome extends CI_Controller {
 		$this->load->view('plantilla/piepagina.php');
 	}
 
+	public function nosotros()
+	{
+		$this->load->view('plantilla/cabecera.php');
+		$this->load->view('nosotros.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
+
 	public function videos()
 	{
 		$this->load->model('VideoModel');
