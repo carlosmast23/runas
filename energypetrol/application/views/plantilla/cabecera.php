@@ -35,20 +35,20 @@
         <div class="row" style="margin-top: 15px;margin-bottom:15px">
             <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
                 <p class="mb-0">
-                    <span class="mr-3"><strong>Tel:</strong> <a href="tel://#">2900227</a></span>
-                    <span><strong>Email:</strong> <a href="mailto:info@medimagenes.ec">info@medimagenes.ec</a></span>
+                    <span class="mr-3"><strong>Tel:</strong> <a href="tel://#">593 2 292 3064</a></span>
+                    <span><strong>Email:</strong> <a href="mailto:energypetrol@energypetrol.net">energypetrol@energypetrol.net</a></span>
                 </p>
 
             </div>
             <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item mr-3">
-                        <a href="#">
+                        <a href="https://www.facebook.com/Energypetrol-145534425528789/timeline/">
                             <i class="fab fa-facebook fa-2x fa-fw"></i>
                         </a>
                     </li>
                     <li class="list-inline-item mr-3">
-                        <a href="#">
+                        <a href="https://twitter.com/energypetrolsa">
                             <i class="fab fa-twitter-square fa-2x fa-fw"></i>
                         </a>
                     </li>
