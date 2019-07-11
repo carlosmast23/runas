@@ -25,14 +25,6 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <!--<nav class="navbar navbar-light bg-light static-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">EnergyPetrol</a>
-            <a class="btn btn-primary" href="#">Ingresar</a>
-        </div>
-    </nav>-->
-
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">EnergyPetrol - Administrador</a>
@@ -46,16 +38,7 @@
                     <a class="nav-link" href="<?= base_url() ?>index.php/welcome/index">Categoria <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="<?= base_url() ?>index.php/admin/videos" >Videos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Stock</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">

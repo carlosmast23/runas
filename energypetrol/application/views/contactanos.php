@@ -45,14 +45,11 @@
                 </p>
 
                 <p class="mb-0" style="text-align: center">
-                    <span class="mr-3"><strong>Tel:</strong> <a href="tel://#">2900227</a></span>
-                    <span class="mr-3"><strong>Cel:</strong> <a href="tel://#">0993107623</a></span>
-                    <span><strong>Email:</strong> <a href="mailto:info@medimagenes.ec">info@medimagenes.ec</a></span>
+                    <span class="mr-3"><strong>Tel:</strong> <a href="tel://#">59322923064</a></span>                    
+                    <span><strong>Email:</strong> <a href="mailto:energypetrol@energypetrol.net">energypetrol@energypetrol.net</a></span>
                 </p>
 
-                <div style="text-align: center">Medimágenes
-                    Italia y Vancouver
-                    N 30-145 Quito-Ecuador </div>
+                <div style="text-align: center">EnergyPetrol Quito-Ecuador </div>
 
             </div>
         </div>
