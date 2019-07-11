@@ -35,31 +35,15 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 col-lg-4">
-        <a href="#" class="media-1">
           <img src="<?= base_url() ?>public/images/nuevas/DSC_5945.png" alt="Image" class="img-fluid">
-          <div class="media-1-content">
-            <h2></h2>
-            <span class="category">Web Application</span>
-          </div>
-        </a>
       </div>
+
       <div class="col-md-6 col-lg-4">
-        <a href="#" class="media-1">
           <img src="<?= base_url() ?>public/images/nuevas/DIAGNOSTICO.png" alt="Image" class="img-fluid">
-          <div class="media-1-content">
-            <h2></h2>
-            <span class="category">Branding</span>
-          </div>
-        </a>
       </div>
+
       <div class="col-md-6 col-lg-4">
-        <a href="#" class="media-1">
           <img src="<?= base_url() ?>public/images/nuevas/DSC_5921.png" alt="Image" class="img-fluid">
-          <div class="media-1-content">
-            <h2></h2>
-            <span class="category">Website</span>
-          </div>
-        </a>
       </div>
 
       <div class="col-12 text-center mt-5">
@@ -188,7 +172,7 @@
   <div class="slide-one-item home-slider owl-carousel">
 
     <div>
-      <div class="testimonial" style="text-align: center">
+      <div class="c" style="text-align: center">
         <img src="<?= base_url() ?>public/images/convenios/AiG.png" alt="Image" style="display:block;margin:auto;width: 200px" />
       </div>
     </div>

@@ -196,7 +196,8 @@ jQuery(document).ready(function($) {
 	    loop: true,
 			stagePadding: 0,
 	    margin: 0,
-	    autoplay: true,
+		autoplay: true,
+		autoplayTimeout:2000 ,
 	    pauseOnHover: false,
 	    nav: true,
 	    navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">']

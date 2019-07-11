@@ -67,7 +67,7 @@
         <div class="container">
           <div class="row">          
             <nav class="navbar navbar-light navbar-expand-lg mainmenu float-right ">
-            <img height="80px" src="<?= base_url() ?>/public/images/logo_color.png" class="img-responsive" alt="Responsive image">
+            <img height="100px" src="<?= base_url() ?>/public/images/logo_color.png" class="img-responsive" alt="Responsive image">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -109,7 +109,7 @@
                   </li>
 
                   <li class="dropdown">
-                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empresa</a>
+                    <a class="dropdown-toggle" onclick="window.location='https://medimagenes.ec/webmail'" href="https://medimagenes.ec/webmail" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empresa</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a href="http://181.39.1.78:8080/dcm4chee-web3/">Sistema Médico</a></li>
                       <li><a href="<?= base_url() ?>index.php/welcome/incidencias">Incidencias</a></li>

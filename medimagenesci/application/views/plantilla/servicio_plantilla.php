@@ -87,19 +87,13 @@
 
                     <div class="form-group">
                         <div class="col-md-4 offset-md-4">
-                            <input id="email" name="email" type="text" placeholder="Telefono " class="form-control">
+                            <input id="email" name="email" type="text" placeholder="Teléfono " class="form-control">
                         </div>
                     </div>
 
                     <div class="form-group">
                             <div class="col-md-4 offset-md-4">
                                 <input id="email" name="email" type="text" placeholder="Email " class="form-control">
-                            </div>
-                    </div>
-
-                    <div class="form-group">
-                            <div class="col-md-4 offset-md-4">
-                                <input id="email" name="email" type="text" placeholder="dd/mm/yyyy " class="form-control">
                             </div>
                     </div>
 
