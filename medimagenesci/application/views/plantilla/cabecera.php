@@ -88,15 +88,16 @@
                         <a class="dropdown-toggle" href="<?= base_url() ?>index.php/welcome/servicio_resonancia" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resonancia Magnética</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a href="<?= base_url() ?>index.php/welcome/servicio_resonancia">Resonancia Magnética</a></li>
-                          <li><a href="<?= base_url() ?>index.php/welcome/estudios">Estudios</a></li>
+                          <!--<li><a href="<?= base_url() ?>index.php/welcome/estudios">Estudios</a></li>-->
                         </ul>
                       </li>
 
                       <li class="dropdown">
-                        <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tomografía axial</a>
+                        <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tomografía</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a href="<?= base_url() ?>index.php/welcome/servicio_tomografia">Tomografía axial</a></li>
-                          <li><a href="<?= base_url() ?>index.php/welcome/tomografiaSimple">Tomografía simple</a></li>
+                          <!--<li><a href="<?= base_url() ?>index.php/welcome/servicio_tomografia">Tomografía</a></li>-->
+                          <li><a href="<?= base_url() ?>index.php/welcome/tomografiaSimple">Tomografía simple - contrastada 3d</a></li>
+                          <li><a href="<?= base_url() ?>index.php/welcome/estudios">Estudios</a></li>
                         </ul>
                       </li>
                       <li><a href="<?= base_url() ?>index.php/welcome/servicio_ecografia">Ecografía 3d - 4d </a></li>
