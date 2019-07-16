@@ -112,4 +112,62 @@
     </div>
 </section>
 
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000" style="margin-bottom: 40px;margin-top: 40px">
+    <h2 class="mb-5" style="text-align: center;border: 0px;margin: 0px;padding: 0px">Nuestros Clientes</h2>
+    <p style="text-align: center;margin: 0px;border: px;padding-bottom: 40px" class="lead mb-0">Algunas de las empresas que han confiado en nosotros</p>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client1.png" alt=" alt=" First slide">
+                </div>
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client2.png" alt=" alt=" First slide">
+                </div>
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client3.png" alt=" alt=" First slide">
+                </div>
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client4.png" alt=" alt=" First slide">
+                </div>
+            </div>
+
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client5.png" alt=" alt=" First slide">
+                </div>
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client6.png" alt=" alt=" First slide">
+                </div>
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client7.png" alt=" alt=" First slide">
+                </div>
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client8.png" alt=" alt=" First slide">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client9.png" alt=" alt=" First slide">
+                </div>
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client15.png" alt=" alt=" First slide">
+                </div>
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client19.png" alt=" alt=" First slide">
+                </div>
+                <div class="col-lg-3">
+                    <img class="d-block w-30 mx-auto" src="<?= base_url() ?>public/img/clientes/client20.png" alt=" alt=" First slide">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <iframe width="1550" height="300" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3989.800256554863!2d-78.47276024879321!3d-0.17241127017849578!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sec!4v1427926587212" style="border: 0px none;"></iframe>
