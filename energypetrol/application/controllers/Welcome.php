@@ -25,18 +25,18 @@ class Welcome extends CI_Controller {
 		$this->load->view('plantilla/piepagina.php');
 	}
 
-	public function nosotros()
-	{
-		$this->load->view('plantilla/cabecera.php');
-		$this->load->view('nosotros.php');
-		$this->load->view('plantilla/piepagina.php');
-	}
 
-	
 	public function contactanos()
 	{
+		$parametro= $this->input->get('enviado',TRUE);
+		$dato['string']=""; //Si no hay dato no ingreso nada
+		if( isset( $parametro ) ) { 
+			//echo "PARAMETRO EXISTE CREO";
+			$dato['string']=$parametro;
+		}
+
 		$this->load->view('plantilla/cabecera.php');
-		$this->load->view('contactanos.php');
+		$this->load->view('contactanos.php',$dato);
 		$this->load->view('plantilla/piepagina.php');
 	}
 
@@ -90,5 +90,35 @@ class Welcome extends CI_Controller {
 		$this->load->view('admin/login.php',array("error"=>$error));
 		//$this->load->view('admin/login.php');
 		$this->load->view('plantilla/piepagina.php');
-    }
+	}
+
+	public function nosotros()
+	{
+		$this->load->view('plantilla/cabecera.php');
+		$this->load->view('nosotros.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
+	
+	public function enviarCorreo()
+	{
+		$mensaje="=================> MENSAJE DE CONTACTANOS <===================\n";
+
+		$mensaje=$mensaje."Nombre: ".$this->input->post('nombre')."\n";
+		$mensaje=$mensaje."Telefono: ".$this->input->post('telefono')."\n";
+		$mensaje=$mensaje."Email: ".$this->input->post('email')."\n";
+		$mensaje=$mensaje."Descripción: ".$this->input->post('descripcion')."\n";
+		
+		$this->load->model("email_model","model");
+
+		if($this->model->enviar_mail($this->input->post('email'),"Correo de contactanos",$mensaje))
+		{
+			redirect('welcome/contactanos?enviado=ok');
+		}
+		else 
+		{
+			//redirect('welcome/contactanos?enviado=error');
+		}
+		
+	
+	}
 }
