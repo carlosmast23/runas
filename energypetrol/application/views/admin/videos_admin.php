@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 </br>
-<h2 style="text-align:center">Gestionar Videos</h2>
+<h4 style="text-align:center">Gestionar Videos</h4>
 
 <div class="row">
     <div class="offset-md-3 col-md-6">

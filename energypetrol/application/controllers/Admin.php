@@ -73,6 +73,13 @@ class Admin extends CI_Controller {
 		$this->load->view('plantilla/piepagina.php');
 	
 	}
-
+	
+	public function producto()
+	{
+		
+		$this->load->view('plantilla/cabecera_admin.php');
+		$this->load->view('admin/producto_admin.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
 
 }

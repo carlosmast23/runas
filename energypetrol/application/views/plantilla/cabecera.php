@@ -93,10 +93,15 @@
                         Productos y Servicios
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <?php
+                            foreach ($consulta->result() as $fila) 
+                            {                                 
+                        ?>
+                        <a class="dropdown-item" href="<?= base_url() ?>index.php/welcome/producto/<?php echo $fila->id ?>"><?php echo $fila->titulo ?></a>
+                        <?php
+                            }
+                        ?>
+                       
                     </div>
                 </li>
                 <li class="nav-item">

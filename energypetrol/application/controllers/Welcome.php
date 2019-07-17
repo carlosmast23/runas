@@ -20,11 +20,19 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('plantilla/cabecera.php');
+		$this->vistaCabeceraConDatos();
 		$this->load->view('index.php');
 		$this->load->view('plantilla/piepagina.php');
 	}
 
+	public function vistaCabeceraConDatos()
+	{
+		$this->load->model('ProductoModel');
+        $result = $this->ProductoModel->todos();
+        $data = array('consulta' => $result);
+
+		$this->load->view('plantilla/cabecera.php',$data);
+	}
 
 	public function contactanos()
 	{
@@ -35,7 +43,7 @@ class Welcome extends CI_Controller {
 			$dato['string']=$parametro;
 		}
 
-		$this->load->view('plantilla/cabecera.php');
+		$this->vistaCabeceraConDatos();
 		$this->load->view('contactanos.php',$dato);
 		$this->load->view('plantilla/piepagina.php');
 	}
@@ -43,7 +51,7 @@ class Welcome extends CI_Controller {
 
 	public function stock()
 	{
-		$this->load->view('plantilla/cabecera.php');
+		$this->vistaCabeceraConDatos();
 		$this->load->view('stock.php');
 		$this->load->view('plantilla/piepagina.php');
 	}
@@ -55,7 +63,7 @@ class Welcome extends CI_Controller {
         $result = $this->VideoModel->todosVideo();
         $data = array('consulta' => $result);
 
-		$this->load->view('plantilla/cabecera.php');
+		$this->vistaCabeceraConDatos();
 		$this->load->view('videos.php',$data);
 		$this->load->view('plantilla/piepagina.php');
 	}
@@ -94,8 +102,28 @@ class Welcome extends CI_Controller {
 
 	public function nosotros()
 	{
-		$this->load->view('plantilla/cabecera.php');
+		$this->vistaCabeceraConDatos();
 		$this->load->view('nosotros.php');
+		$this->load->view('plantilla/piepagina.php');
+	}
+
+	public function producto($id = NULL)
+	{
+		
+		$this->load->model('ProductoModel');
+        $result = $this->ProductoModel->buscarPorId($id);
+		
+		
+		$this->load->model('ProductoDetalleModel');
+		$productos= $this->ProductoDetalleModel->buscarPorProductoId($id);
+
+		$resultado = array('consulta' => $result,'productos'=>$productos);
+
+		//$datos['consulta'] =$data;
+		//$datos['productos'] = $productos; 
+
+		$this->vistaCabeceraConDatos();
+		$this->load->view('producto.php',$resultado);
 		$this->load->view('plantilla/piepagina.php');
 	}
 	
