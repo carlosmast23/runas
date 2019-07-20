@@ -21,7 +21,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->vistaCabeceraConDatos();
-		$this->load->view('index.php');
+		$this->load->view('index.php');		
 		$this->load->view('plantilla/piepagina.php');
 	}
 
@@ -44,7 +44,8 @@ class Welcome extends CI_Controller {
 		}
 
 		$this->vistaCabeceraConDatos();
-		$this->load->view('contactanos.php',$dato);
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Contactanos','ruta'=>'contactanos'));
+		$this->load->view('contactanos.php',$dato);		
 		$this->load->view('plantilla/piepagina.php');
 	}
 
@@ -52,9 +53,66 @@ class Welcome extends CI_Controller {
 	public function stock()
 	{
 		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Stock','ruta'=>'stock'));
 		$this->load->view('stock.php');
 		$this->load->view('plantilla/piepagina.php');
 	}
+
+	public function mecanico()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Mecánico','ruta'=>'mecanico'));
+		$this->load->view('servicios/mecanico.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
+
+	public function gabinetes()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Gabinetes','ruta'=>'gabinetes'));
+		$this->load->view('servicios/gabinetes.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
+
+	public function simoprime()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Simoprime','ruta'=>'simoprime'));
+		$this->load->view('servicios/simoprime.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
+
+	public function paquetizados()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Paquetizado','ruta'=>'paquetizado'));
+		$this->load->view('servicios/paquetizados.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
+
+	public function instrumentacion()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Instrumentación','ruta'=>'instrumentacion'));
+		$this->load->view('servicios/instrumentacion.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
+
+	public function electrico()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Eléctronico','ruta'=>'electronico'));
+		$this->load->view('servicios/electrico.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
+
+	public function firegas()
+	{
+		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Fire Gas','ruta'=>'firegas'));
+		$this->load->view('servicios/firegas.php');
+		$this->load->view('plantilla/piepagina.php');
+	}	
 
 
 	public function videos()
@@ -64,6 +122,7 @@ class Welcome extends CI_Controller {
         $data = array('consulta' => $result);
 
 		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Videos','ruta'=>'videos'));
 		$this->load->view('videos.php',$data);
 		$this->load->view('plantilla/piepagina.php');
 	}
@@ -94,7 +153,8 @@ class Welcome extends CI_Controller {
 
 	public function vistaLogin($error)
     {
-        $this->load->view('plantilla/cabecera_limpia.php');
+		$this->load->view('plantilla/cabecera_limpia.php');
+		//$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Login','ruta'=>'login'));
 		$this->load->view('admin/login.php',array("error"=>$error));
 		//$this->load->view('admin/login.php');
 		$this->load->view('plantilla/piepagina.php');
@@ -103,6 +163,7 @@ class Welcome extends CI_Controller {
 	public function nosotros()
 	{
 		$this->vistaCabeceraConDatos();
+		$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Nosotros','ruta'=>'nosotros'));
 		$this->load->view('nosotros.php');
 		$this->load->view('plantilla/piepagina.php');
 	}

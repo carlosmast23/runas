@@ -1,56 +1,149 @@
+<!-- footer 
+			================================================== -->
+            <p>
+    <footer>
+        <div class="up-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-widget">
+                            <img alt="" src="<?= base_url() ?>public/images\logof.png"><img alt="" width="230px" height="162px" src="<?= base_url() ?>public/images\BV_Cert_ISO9001-2015.png">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-widget">
+                            <p>Productos y Servicios</p>
+                            <ul class="tag-list">
+                                <li><a href="mecanico.html">Mec&aacute;nico</a></li>
+                                <li><a href="electrico.html">El&eacute;ctrico</a></li>
+                                <li><a href="fireandgas.html">Sistema Contra Incendio</a></li>
+                                <li><a href="instrumentacion.html">Instrumentaci&oacute;n</a></li>
+                                <li><a href="paquetizados.html">Paquetizados</a></li>
+                                <li><a href="simoprime.html">Simoprime</a></li>
+                                <li><a href="gabinetes.html">Gabinetes Met&aacute;licos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-widget">
+                            <h2>Flickr</h2>
+                            <style type="text/css">
+                                .flickr_badge_image {
+                                    margin: 0px;
+                                    display: inline;
+                                }
 
+                                .flickr_badge_image img {
+                                    padding: 1px;
+                                    margin: 2px;
+                                }
 
-    <!-- Footer -->
-    <footer class="footer bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-                    <ul class="list-inline mb-2">
-                        <li class="list-inline-item">
-                            <a href="<?= base_url() ?>index.php/welcome/index">Inicio</a>
-                        </li>
-                        <li class="list-inline-item">&sdot;</li>
-                        <li class="list-inline-item">
-                            <a href="<?= base_url() ?>index.php/welcome/nosotros">Nosotros</a>
-                        </li>
-                        <li class="list-inline-item">&sdot;</li>
-                        <li class="list-inline-item">
-                            <a href="<?= base_url() ?>index.php/welcome/videos">Videos</a>
-                        </li>
-                        <li class="list-inline-item">&sdot;</li>
-                        <li class="list-inline-item">
-                            <a href="<?= base_url() ?>index.php/welcome/stock">Stock</a>
-                        </li>
-                    </ul>
-                    <p class="text-muted small mb-4 mb-lg-0">&copy; EnergyPetrol 2019. All Rights Reserved.</p>
-                </div>
-                <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item mr-3">
-                            <a href="https://www.facebook.com/Energypetrol-145534425528789/timeline/">
-                                <i class="fab fa-facebook fa-2x fa-fw"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item mr-3">
-                            <a href="https://twitter.com/energypetrolsa">
-                                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-instagram fa-2x fa-fw"></i>
-                            </a>
-                        </li>
-                    </ul>
+                                #flickr_badge_wrapper {
+                                    width: 262.5px;
+                                    text-align: left
+                                }
+                            </style>
+                            <div id="flickr_badge_wrapper">
+                                <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&display=latest&size=s&layout=x&source=user&user=134211586@N02"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-widget info-widget">
+                            <h2>Contacto</h2>
+                            <p><span>N&uacute;mero de Tel&eacute;fono:</span> <a style="color: #ffffff !important;" href="contacto.html"> 593 2 292 3064</a></p>
+                            <p><span>Email:</span><a style="color: #ffffff !important;" href="mailto:energypetrol@energypetrol.net">energypetrol@energypetrol.net</a></p>
+                            <p><span>Horario de Trabajo:</span> 8:00 a.m - 17:00 p.m</p>
+                        </div>
+                        <br>
+                        <div class="col-md-10">
+                            <ul class="social-icons">
+                                <li><a target="_blank" href="https://www.facebook.com/Energypetrol-145534425528789/timeline/" class="facebook"><em class="fa fa-facebook"></em></a></li>
+                                <li><a target="_blank" href="https://twitter.com/energypetrolsa" class="twitter"><em target="_blank" class="fa fa-twitter"></em></a></li>
+                                <li><a target="_blank" href="https://plus.google.com/+EnergypetrolSAQuito/posts?hl=en" class="google"><em class="fa fa-google-plus"></em></a></li>
+                                <li><a target="_blank" href="https://www.linkedin.com/company/2102171?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A532734351441906917241%2CVSRPtargetId%3A2102171%2CVSRPcmpt%3Acompanies_cluster" class="linkedin"><em class="fa fa-linkedin"></em></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <p class="copyright">
+            <a style="color: #ffffff;" href="http://alphawavedigital.com" target="_blank">EnergyPetrol Copyright 2019</a>
+        </p>
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="<?= base_url() ?>public/vendor/jquery/jquery.min.js"></script>
-    <script src="<?= base_url() ?>public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- End footer -->
+    <!-- End Container -->
+    <!-- Revolution slider -->
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
 
-</body>
+            jQuery('.tp-banner').show().revolution({
+                dottedOverlay: "none",
+                delay: 10000,
+                startwidth: 1140,
+                startheight: 700,
+                hideThumbs: 200,
 
-</html>
+                thumbWidth: 100,
+                thumbHeight: 50,
+                thumbAmount: 5,
+
+                navigationType: "bullet",
+                navigationArrows: "none",
+
+                touchenabled: "on",
+                onHoverStop: "off",
+
+                swipe_velocity: 0.7,
+                swipe_min_touches: 1,
+                swipe_max_touches: 1,
+                drag_block_vertical: false,
+
+                parallax: "mouse",
+                parallaxBgFreeze: "on",
+                parallaxLevels: [7, 4, 3, 2, 5, 4, 3, 2, 1, 0],
+
+                keyboardNavigation: "off",
+
+                navigationHAlign: "center",
+                navigationVAlign: "bottom",
+                navigationHOffset: 0,
+                navigationVOffset: 40,
+
+                shadow: 0,
+
+                spinner: "spinner4",
+
+                stopLoop: "off",
+                stopAfterLoops: -1,
+                stopAtSlide: -1,
+
+                shuffle: "off",
+
+                autoHeight: "off",
+                forceFullWidth: "off",
+
+
+
+                hideThumbsOnMobile: "off",
+                hideNavDelayOnMobile: 1500,
+                hideBulletsOnMobile: "off",
+                hideArrowsOnMobile: "off",
+                hideThumbsUnderResolution: 0,
+
+                hideSliderAtLimit: 0,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                startWithSlide: 0,
+                fullScreenOffsetContainer: ".header"
+            });
+
+        }); //ready
+    </script>
+    <script src="<?= base_url() ?>public/js\lightbox.min.js"></script>
+
+    </body>
+
+    </html>

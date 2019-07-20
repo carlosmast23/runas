@@ -1,59 +1,36 @@
-<div class="container-fluid pb-video-container" style="text-align:center">
-    <div class="col-md-12 col-md-offset-1">
-        <h3 class="text-center">Galeria de Videos</h3>
-
-        <div class="row pb-row">
-        <?php
-        $contador=0; //Contador que me sirve para crear filas cada 4 items
-        foreach ($consulta->result() as $fila) {
-            ?>
-
-            <?php
-                if($contador%4==0)
-                {
-                    echo "</div>"; //Cierro la primera etiqueta
-                    echo '<div class="row pb-row">'; //Abro una nueva fila para los videos
-                }
-                $contador++;
-            ?>
-            
-            <div class="col-md-3 pb-video">
-                <iframe class="pb-video-frame" width="100%" height="230" src="<?php echo $fila->url ?>" frameborder="0" allowfullscreen></iframe>
-                <label class="form-control label-warning text-center"><?php echo $fila->titulo ?></label>
-            </div>
-
-        <?php
-        }
-        ?>
+        <section class="projects-page-section">
+        <div class="container">
+        <div class="project-box iso-call">
+        <div class="project-post buildings isolation">
+        <iframe src="https://player.vimeo.com/video/139358120" width="262" height="175" frameborder="0"></iframe>
+        <p><a href="https://vimeo.com/139358120">Unidades ACT contruidas por Energypetrol</a> from <a href="https://vimeo.com/user11205494">ENERGYPETROL S.A.</a></p>
         </div>
-    </div>
-</div>
-
-<style>
-    .pb-video-container {
-        padding-top: 20px;
-        background: #ffffff;
-        font-family: Lato;
-    }
-
-    .pb-video {
-        border: 1px solid #e6e6e6;
-        padding: 5px;
-    }
-
-    .pb-video:hover {
-        background: #2c3e50;
-    }
-
-    .pb-video-frame {
-        transition: width 2s, height 2s;
-    }
-
-    .pb-video-frame:hover {
-        height: 300px;
-    }
-
-    .pb-row {
-        margin-bottom: 10px;
-    }
-</style>
+        <div class="project-post interior">
+        <iframe src="https://player.vimeo.com/video/139349833" width="262" height="175" frameborder="0"></iframe>
+        <p><a href="https://vimeo.com/139349833">Separador Trif&aacute;sico Horizontal 24000 BPD</a> from <a href="https://vimeo.com/user11205494">ENERGYPETROL S.A.</a></p>
+        </div>
+        <div class="project-post buildings isolation">
+        <iframe src="https://player.vimeo.com/video/139344238" width="262" height="175" frameborder="0"></iframe>
+        <p><a href="https://vimeo.com/139344238">Instalaciones CDT Energypetrol</a> from <a href="https://vimeo.com/user11205494">ENERGYPETROL S.A.</a></p>
+        </div>
+        <div class="project-post buildings">
+        <iframe src="https://player.vimeo.com/video/40022695" width="262" height="175" frameborder="0"></iframe>
+        <p><a href="https://vimeo.com/40022695">INTELLIGENT PIPELINES PROJECTS</a> from <a href="https://vimeo.com/user11205494">ENERGYPETROL S.A.</a></p>
+        </div>
+        <div class="project-post buildings">
+        <iframe src="https://player.vimeo.com/video/40019257" width="262" height="175" frameborder="0"></iframe>
+        <p><a href="https://vimeo.com/40019257">PROYECTO OLEODUCTOS INTELIGENTES</a> from <a href="https://vimeo.com/user11205494">ENERGYPETROL S.A.</a></p>
+        </div>
+        <div class="project-post buildings">
+        <iframe width="262" height="175" src="https://www.youtube.com/embed/-NwvyyfTd5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <p><a href="https://youtu.be/-NwvyyfTd5A">SIMOPRIME</a> from <a href="https://youtu.be/-NwvyyfTd5A">ENERGYPETROL S.A.</a></p>
+        </div>
+        <div class="project-post buildings">
+        <iframe width="262" height="175" src="https://www.youtube.com/embed/0exGGhlrMWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <p><a href="https://youtu.be/0exGGhlrMWA">INSTALACION CELDAS DE MEDIA TENSION EEQ</a> from <a href="https://youtu.be/0exGGhlrMWA">ENERGYPETROL S.A.</a></p>
+        </div>
+        <p><br>
+        </p>
+        </div>
+        </div>
+        </section></div>
