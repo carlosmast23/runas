@@ -27,11 +27,26 @@ class Welcome extends CI_Controller {
 
 	public function vistaCabeceraConDatos()
 	{
+		$this->load->model('ParametrosModel');
+        $parametros = $this->ParametrosModel->todos(); 
+
 		$this->load->model('ProductoModel');
         $result = $this->ProductoModel->todos();
-        $data = array('consulta' => $result);
+        $data = array('consulta' => $result,'parametro'=>$parametros);
 
+		$this->load->view('plantilla/utilidades_vista.php');
 		$this->load->view('plantilla/cabecera.php',$data);
+	}
+
+	public function vistaPiePaginaConDatos()
+	{
+		$this->load->model('ParametrosModel');
+		$parametros = $this->ParametrosModel->todos(); 
+		
+		$data = array('parametro'=>$parametros);
+
+		$this->load->view('plantilla/utilidades_vista.php');
+		$this->load->view('plantilla/pie_pagina.php',$data);
 	}
 
 	public function contactanos()
@@ -153,7 +168,9 @@ class Welcome extends CI_Controller {
 
 	public function vistaLogin($error)
     {
-		$this->load->view('plantilla/cabecera_limpia.php');
+		
+		//$this->load->view('plantilla/cabecera_limpia.php');
+		$this->vistaCabeceraConDatos();
 		//$this->load->view('plantilla/titulo_pagina.php',array('titulo' => 'Login','ruta'=>'login'));
 		$this->load->view('admin/login.php',array("error"=>$error));
 		//$this->load->view('admin/login.php');
@@ -210,4 +227,7 @@ class Welcome extends CI_Controller {
 		
 	
 	}
+
+	//==================> FUNCIONES ADICIONALES PARA LA VISTA <=====================================//
+	
 }
